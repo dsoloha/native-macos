@@ -1,0 +1,62 @@
+{
+    "name": "native-macos",
+    "displayName": "Native macOS",
+    "description": "A theme designed to mimic macOS's native apps, such as Finder and Xcode.",
+    "version": "0.0.1",
+    "publisher": "dsoloha",
+    "engines": {
+        "vscode": "^1.45.0"
+    },
+    "keywords": [
+        "macos",
+        "native",
+        "mojave",
+        "color-theme"
+    ],
+    "preview": true,
+    "homepage": "https://github.com/dsoloha/native-macos",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/dsoloha/native-macos.git"
+    },
+    "galleryBanner": {
+        "color": "#0F0F0F",
+        "theme": "dark"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Native macOS - Light Theme, Light Editor",
+                "id": "f8a8b4bb-2b23-4fd6-8a25-4c054c3e8489",
+                "uiTheme": "vs",
+                "path": "./themes/light/native-macOS-light-light.json"
+            },
+            {
+                "label": "Native macOS - Light Theme, Dark Editor",
+                "id": "87db719c-59c2-462c-93b6-bdd908f46381",
+                "uiTheme": "vs",
+                "path": "./themes/light/native-macOS-light-dark.json"
+            },
+            {
+                "label": "Native macOS - Dark Theme, Light Editor",
+                "id": "5d5c461d-8772-4e57-b808-5e8e4c9bffa1",
+                "uiTheme": "vs-dark",
+                "path": "./themes/dark/native-macOS-dark-light.json"
+            },
+            {
+                "label": "Native macOS - Dark Theme, Dark Editor",
+                "id": "8236ab4f-664a-4ad0-99b6-80a67b4a2c18",
+                "uiTheme": "vs-dark",
+                "path": "./themes/dark/native-macOS-dark-dark.json"
+            }
+        ]
+    },
+    "__metadata": {
+        "id": "89bc8860-9fc7-11ea-bb37-0242ac130002",
+        "publisherId": "aeb59d00-9fc7-11ea-bb37-0242ac130002",
+        "publisherDisplayName": "dsoloha"
+    }
+}
