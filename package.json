@@ -32,25 +32,25 @@
                 "label": "Native macOS - Light Theme, Light Editor",
                 "id": "f8a8b4bb-2b23-4fd6-8a25-4c054c3e8489",
                 "uiTheme": "vs",
-                "path": "./themes/light/native-macOS-light-light.json"
+                "path": "./themes/light/light-theme-light-editor.json"
             },
             {
                 "label": "Native macOS - Light Theme, Dark Editor",
                 "id": "87db719c-59c2-462c-93b6-bdd908f46381",
                 "uiTheme": "vs",
-                "path": "./themes/light/native-macOS-light-dark.json"
+                "path": "./themes/light/light-theme-dark-editor.json"
             },
             {
                 "label": "Native macOS - Dark Theme, Light Editor",
                 "id": "5d5c461d-8772-4e57-b808-5e8e4c9bffa1",
                 "uiTheme": "vs-dark",
-                "path": "./themes/dark/native-macOS-dark-light.json"
+                "path": "./themes/dark/dark-theme-light-editor.json"
             },
             {
                 "label": "Native macOS - Dark Theme, Dark Editor",
                 "id": "8236ab4f-664a-4ad0-99b6-80a67b4a2c18",
                 "uiTheme": "vs-dark",
-                "path": "./themes/dark/native-macOS-dark-dark.json"
+                "path": "./themes/dark/dark-theme-dark-editor.json"
             }
         ]
     },
