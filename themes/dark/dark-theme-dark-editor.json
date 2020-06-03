@@ -75,6 +75,8 @@
 		"list.focusBackground": "#403f44",
 		"list.inactiveFocusBackground": "#403f44",
 		"list.inactiveSelectionBackground": "#403f44",
+		"panel.background": "#242529",
+		"panel.border": "#4d4d50",
 		"panel.dropBackground": "#555555",
 		"panelTitle.activeBorder": "#ff000000",
 		"panelTitle.activeForeground": "#ffffff",
@@ -123,8 +125,7 @@
 		"titleBar.border": "#4d4d50",
 		"titleBar.inactiveBackground": "#414045",
 		"titleBar.inactiveForeground": "#b8b7bc",
-		"panel.background": "#242529",
-		"panel.border": "#4d4d50",
+
 		//"badge.background": "#4d4d4d",
 		//"badge.foreground": "#ffffff",
 		//"breadcrumb.activeSelectionForeground": "#ffffff",
@@ -288,7 +289,8 @@
 		//"tree.indentGuidesStroke": "#585858",
 		//"widget.shadow": "#000000"
 	},
-	"tokenColors": [{
+	"tokenColors": [
+		{
 			"name": "Comment",
 			"scope": [
 				"comment",
