@@ -68,7 +68,7 @@
 		"panel.border": "#afafaf",
 		"selection.background": "#cedeef",
 		"settings.dropdownForeground": "#000000",
-		"sideBar.background": "#f9f5f5",
+		"sideBar.background": "#ff0000",
 		"sideBar.border": "#d9d6d7",
 		"sideBar.dropBackground": "#f9f5f5",
 		"sideBar.foreground": "#000000",
@@ -364,21 +364,13 @@
 			}
 		}, {
 			"name": "Function name",
-			"scope": [
-				"entity.name.function",
-				// "variable.function"
-				// "entity.name.function.method"
-			],
+			"scope": "entity.name.function",
 			"settings": {
 				"foreground": "#64afc8"
 			}
 		}, {
 			"name": "Invoked function",
-			"scope": [
-				// "entity.name.function",
-				// "variable.function",
-				"entity.name.function.method"
-			],
+			"scope": "entity.name.function.method",
 			"settings": {
 				"foreground": "#64b4a0"
 			}
@@ -392,7 +384,8 @@
 			"name": "Reserved keywords",
 			"scope": "variable.language",
 			"settings": {
-				"foreground": "#64b4a0"
+				"foreground": "#f082b0",
+				"fontStyle": "bold"
 			}
 		}, {
 			"name": "Tag name",

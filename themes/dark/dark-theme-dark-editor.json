@@ -413,21 +413,13 @@
 		}
 	}, {
 		"name": "Function name",
-		"scope": [
-			"entity.name.function",
-			// "variable.function"
-			// "entity.name.function.method"
-		],
+		"scope": "entity.name.function",
 		"settings": {
 			"foreground": "#64afc8"
 		}
 	}, {
 		"name": "Invoked function",
-		"scope": [
-			// "entity.name.function",
-			// "variable.function",
-			"entity.name.function.method"
-		],
+		"scope": "entity.name.function.method",
 		"settings": {
 			"foreground": "#64b4a0"
 		}
@@ -441,7 +433,8 @@
 		"name": "Reserved keywords",
 		"scope": "variable.language",
 		"settings": {
-			"foreground": "#64b4a0"
+			"foreground": "#f082b0",
+			"fontStyle": "bold"
 		}
 	}, {
 		"name": "Tag name",
