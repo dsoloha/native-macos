@@ -21,6 +21,7 @@
 		"dropdown.foreground": "#ffffff",
 		"dropdown.listBackground": "#000000",
 		"editor.background": "#242529",
+		"editor.foldBackground": "#30323980",
 		"editor.foreground": "#ffffffd8",
 		"editor.inactiveSelectionBackground": "#6e6e6e",
 		"editor.lineHighlightBackground": "#303239",
@@ -37,10 +38,10 @@
 		"editorGroupHeader.noTabsBackground": "#303136",
 		"editorGroupHeader.tabsBackground": "#303136",
 		"editorGroupHeader.tabsBorder": "#1a191c",
-		"editorGutter.addedBackground": "#4dbf57",
+		"editorGutter.addedBackground": "#3cc85a",
 		"editorGutter.background": "#ff000000",
-		"editorGutter.deletedBackground": "#e21515",
-		"editorGutter.modifiedBackground": "#348cff",
+		"editorGutter.deletedBackground": "#ff3c32",
+		"editorGutter.modifiedBackground": "#0077ff",
 		"editorHint.border": "#ff000000",
 		"editorHint.foreground": "#027aff",
 		"editorInfo.border": "#ff000000",
@@ -93,7 +94,7 @@
 		"sideBarSectionHeader.background": "#303136",
 		"sideBarSectionHeader.border": "#303136",
 		"sideBarSectionHeader.foreground": "#8d8d8d",
-		"sideBarTitle.foreground": "#6c6b70",
+		"sideBarTitle.foreground": "#ffffff",
 		"statusBar.background": "#414045",
 		"statusBar.border": "#4d4d50",
 		"statusBar.debuggingBackground": "#414045",
@@ -289,215 +290,217 @@
 		//"tree.indentGuidesStroke": "#585858",
 		//"widget.shadow": "#000000"
 	},
-	"tokenColors": [{
-		"name": "Comment",
-		"scope": "comment",
-		"settings": {
-			"foreground": "#7f8c98"
+	"tokenColors": [
+		{
+			"name": "Comment",
+			"scope": "comment",
+			"settings": {
+				"foreground": "#7f8c98"
+			}
+		}, {
+			"name": "Preprocessor Statements",
+			"scope": [
+				"meta.preprocessor",
+				"keyword.control.import"
+			],
+			"settings": {
+				"foreground": "#f0a55f"
+			}
+		}, {
+			"name": "String",
+			"scope": "string",
+			"settings": {
+				"foreground": "#ff8270"
+			}
+		}, {
+			"name": "Template string expressions",
+			"scope": [
+				"meta.template.expression",
+				"keyword.operator.assignment"
+			],
+			"settings": {
+				"foreground": "#ffffff"
+			}
+		}, {
+			"name": "Template string interpolation",
+			"scope": [
+				"punctuation.definition.template-expression.begin",
+				"punctuation.definition.template-expression.end",
+				"punctuation.section.embedded"
+			],
+			"settings": {
+				"foreground": "#9664c8"
+			}
+		}, {
+			"name": "Number",
+			"scope": "constant.numeric",
+			"settings": {
+				"foreground": "#d9c97c"
+			}
+		}, {
+			"name": "Built-in constant",
+			"scope": "constant.language",
+			"settings": {
+				"foreground": "#f082b0",
+				"fontStyle": "bold"
+			}
+		}, {
+			"name": "User-defined constant",
+			"scope": [
+				"constant.character"
+			],
+			"settings": {
+				"foreground": "#64afc8"
+			}
+		}, {
+			"name": "Variable",
+			"scope": [
+				"variable"
+			],
+			"settings": {
+				"foreground": "#64b4a0"
+			}
+		}, {
+			"name": "Variable property",
+			"scope": "variable.other.property",
+			"settings": {
+				"foreground": "#a0f0dc"
+			}
+		}, {
+			"name": "Keyword",
+			"scope": [
+				"keyword"
+			],
+			"settings": {
+				"foreground": "#f082b0",
+				"fontStyle": "bold"
+			}
+		}, {
+			"name": "Operator",
+			"scope": [
+				"keyword.operator",
+				"keyword.operator.arithmetic",
+				"storage.type.function.arrow"
+			],
+			"settings": {
+				"foreground": "#9664c8"
+			}
+		}, {
+			"name": "Storage",
+			"scope": "storage",
+			"settings": {
+				"foreground": "#f082b0",
+				"fontStyle": "bold"
+			}
+		}, {
+			"name": "Types",
+			"scope": "support.type.property-name",
+			"settings": {
+				"foreground": "#87dbfa"
+			}
+		}, {
+			"name": "Class name",
+			"scope": [
+				"entity.name.type.class"
+			],
+			"settings": {
+				"foreground": "#bef0e6"
+			}
+		}, {
+			"name": "Superclass",
+			"scope": "entity.other.inherited-class",
+			"settings": {
+				"foreground": "#87beb4",
+				"fontStyle": "bold"
+			}
+		}, {
+			"name": "Function name",
+			"scope": "entity.name.function",
+			"settings": {
+				"foreground": "#64afc8"
+			}
+		}, {
+			"name": "Invoked function",
+			"scope": "entity.name.function.method",
+			"settings": {
+				"foreground": "#64b4a0"
+			}
+		}, {
+			"name": "Function argument",
+			"scope": "variable.parameter",
+			"settings": {
+				"foreground": "#ffffff"
+			}
+		}, {
+			"name": "Reserved keywords",
+			"scope": "variable.language",
+			"settings": {
+				"foreground": "#f082b0",
+				"fontStyle": "bold"
+			}
+		}, {
+			"name": "Tag name",
+			"scope": "entity.name.tag",
+			"settings": {
+				"foreground": "#f082b0"
+			}
+		}, {
+			"name": "Tag attribute",
+			"scope": "entity.other.attribute-name",
+			"settings": {
+				"foreground": "#d9c97c"
+			}
+		}, {
+			"name": "Library function",
+			"scope": "support.function",
+			"settings": {
+				"foreground": "#64b4a0"
+			}
+		}, {
+			"name": "Library constant",
+			"scope": "support.constant",
+			"settings": {
+				"foreground": "#9ef1de"
+			}
+		}, {
+			"name": "Library class/type",
+			"scope": [
+				"support.type",
+				"support.class"
+			],
+			"settings": {
+				"foreground": "#d2befa"
+			}
+		}, {
+			"name": "Library variable",
+			"scope": "support.other.variable",
+			"settings": {
+				"foreground": "#aa82e6"
+			}
+		}, {
+			"name": "Invalid",
+			"scope": "invalid",
+			"settings": {}
+		}, {
+			"scope": "token.info-token",
+			"settings": {
+				"foreground": "#316bcd"
+			}
+		}, {
+			"scope": "token.warn-token",
+			"settings": {
+				"foreground": "#cd9731"
+			}
+		}, {
+			"scope": "token.error-token",
+			"settings": {
+				"foreground": "#cd3131"
+			}
+		}, {
+			"scope": "token.debug-token",
+			"settings": {
+				"foreground": "#800080"
+			}
 		}
-	}, {
-		"name": "Preprocessor Statements",
-		"scope": [
-			"meta.preprocessor",
-			"keyword.control.import"
-		],
-		"settings": {
-			"foreground": "#f0a55f"
-		}
-	}, {
-		"name": "String",
-		"scope": "string",
-		"settings": {
-			"foreground": "#ff8270"
-		}
-	}, {
-		"name": "Template string expressions",
-		"scope": [
-			"meta.template.expression",
-			"keyword.operator.assignment"
-		],
-		"settings": {
-			"foreground": "#ffffff"
-		}
-	}, {
-		"name": "Template string interpolation",
-		"scope": [
-			"punctuation.definition.template-expression.begin",
-			"punctuation.definition.template-expression.end",
-			"punctuation.section.embedded"
-		],
-		"settings": {
-			"foreground": "#9664c8"
-		}
-	}, {
-		"name": "Number",
-		"scope": "constant.numeric",
-		"settings": {
-			"foreground": "#d9c97c"
-		}
-	}, {
-		"name": "Built-in constant",
-		"scope": "constant.language",
-		"settings": {
-			"foreground": "#f082b0",
-			"fontStyle": "bold"
-		}
-	}, {
-		"name": "User-defined constant",
-		"scope": [
-			"constant.character"
-		],
-		"settings": {
-			"foreground": "#64afc8"
-		}
-	}, {
-		"name": "Variable",
-		"scope": [
-			"variable"
-		],
-		"settings": {
-			"foreground": "#64b4a0"
-		}
-	}, {
-		"name": "Variable property",
-		"scope": "variable.other.property",
-		"settings": {
-			"foreground": "#a0f0dc"
-		}
-	}, {
-		"name": "Keyword",
-		"scope": [
-			"keyword"
-		],
-		"settings": {
-			"foreground": "#f082b0",
-			"fontStyle": "bold"
-		}
-	}, {
-		"name": "Operator",
-		"scope": [
-			"keyword.operator",
-			"keyword.operator.arithmetic",
-			"storage.type.function.arrow"
-		],
-		"settings": {
-			"foreground": "#9664c8"
-		}
-	}, {
-		"name": "Storage",
-		"scope": "storage",
-		"settings": {
-			"foreground": "#f082b0",
-			"fontStyle": "bold"
-		}
-	}, {
-		"name": "Types",
-		"scope": "support.type.property-name",
-		"settings": {
-			"foreground": "#87dbfa"
-		}
-	}, {
-		"name": "Class name",
-		"scope": [
-			"entity.name.type.class"
-		],
-		"settings": {
-			"foreground": "#bef0e6"
-		}
-	}, {
-		"name": "Superclass",
-		"scope": "entity.other.inherited-class",
-		"settings": {
-			"foreground": "#87beb4",
-			"fontStyle": "bold"
-		}
-	}, {
-		"name": "Function name",
-		"scope": "entity.name.function",
-		"settings": {
-			"foreground": "#64afc8"
-		}
-	}, {
-		"name": "Invoked function",
-		"scope": "entity.name.function.method",
-		"settings": {
-			"foreground": "#64b4a0"
-		}
-	}, {
-		"name": "Function argument",
-		"scope": "variable.parameter",
-		"settings": {
-			"foreground": "#ffffff"
-		}
-	}, {
-		"name": "Reserved keywords",
-		"scope": "variable.language",
-		"settings": {
-			"foreground": "#f082b0",
-			"fontStyle": "bold"
-		}
-	}, {
-		"name": "Tag name",
-		"scope": "entity.name.tag",
-		"settings": {
-			"foreground": "#f082b0"
-		}
-	}, {
-		"name": "Tag attribute",
-		"scope": "entity.other.attribute-name",
-		"settings": {
-			"foreground": "#d9c97c"
-		}
-	}, {
-		"name": "Library function",
-		"scope": "support.function",
-		"settings": {
-			"foreground": "#64b4a0"
-		}
-	}, {
-		"name": "Library constant",
-		"scope": "support.constant",
-		"settings": {
-			"foreground": "#9ef1de"
-		}
-	}, {
-		"name": "Library class/type",
-		"scope": [
-			"support.type",
-			"support.class"
-		],
-		"settings": {
-			"foreground": "#d2befa"
-		}
-	}, {
-		"name": "Library variable",
-		"scope": "support.other.variable",
-		"settings": {
-			"foreground": "#aa82e6"
-		}
-	}, {
-		"name": "Invalid",
-		"scope": "invalid",
-		"settings": {}
-	}, {
-		"scope": "token.info-token",
-		"settings": {
-			"foreground": "#316bcd"
-		}
-	}, {
-		"scope": "token.warn-token",
-		"settings": {
-			"foreground": "#cd9731"
-		}
-	}, {
-		"scope": "token.error-token",
-		"settings": {
-			"foreground": "#cd3131"
-		}
-	}, {
-		"scope": "token.debug-token",
-		"settings": {
-			"foreground": "#800080"
-		}
-	}]
+	]
 }
