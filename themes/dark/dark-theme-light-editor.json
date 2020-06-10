@@ -1,7 +1,7 @@
 {
-	"name": "MacOS Modern - Xcode Default",
+	"name": "Native macOS - Dark Theme, Light Editor",
 	"$schema": "vscode://schemas/color-theme",
-	"type": "light",
+	"type": "dark",
 	"colors": {
 		"activityBar.background": "#303136",
 		"activityBar.border": "#414045",
@@ -20,11 +20,12 @@
 		"dropdown.border": "#ffffff33",
 		"dropdown.foreground": "#ffffff",
 		"dropdown.listBackground": "#000000",
-		"editor.background": "#242529",
-		"editor.foreground": "#ffffffd8",
-		"editor.inactiveSelectionBackground": "#6e6e6e",
-		"editor.lineHighlightBackground": "#303239",
-		"editor.selectionBackground": "#636f83",
+		"editor.background": "#ffffff",
+		"editor.foldBackground": "#30323980",
+		"editor.foreground": "#000000",
+		"editor.inactiveSelectionBackground": "#d2d2d2",
+		"editor.lineHighlightBackground": "#f0f5ff",
+		"editor.selectionBackground": "#b9d7fa",
 		"editor.selectionHighlightBackground": "#636f8380",
 		"editor.wordHighlightBackground": "#636f8380",
 		"editor.wordHighlightStrongBackground": "#636f8380",
@@ -37,10 +38,10 @@
 		"editorGroupHeader.noTabsBackground": "#303136",
 		"editorGroupHeader.tabsBackground": "#303136",
 		"editorGroupHeader.tabsBorder": "#1a191c",
-		"editorGutter.addedBackground": "#4dbf57",
+		"editorGutter.addedBackground": "#3cc85a",
 		"editorGutter.background": "#ff000000",
-		"editorGutter.deletedBackground": "#e21515",
-		"editorGutter.modifiedBackground": "#348cff",
+		"editorGutter.deletedBackground": "#ff3c32",
+		"editorGutter.modifiedBackground": "#0077ff",
 		"editorHint.border": "#ff000000",
 		"editorHint.foreground": "#027aff",
 		"editorInfo.border": "#ff000000",
@@ -93,7 +94,7 @@
 		"sideBarSectionHeader.background": "#303136",
 		"sideBarSectionHeader.border": "#303136",
 		"sideBarSectionHeader.foreground": "#8d8d8d",
-		"sideBarTitle.foreground": "#6c6b70",
+		"sideBarTitle.foreground": "#ffffff",
 		"statusBar.background": "#414045",
 		"statusBar.border": "#4d4d50",
 		"statusBar.debuggingBackground": "#414045",
@@ -124,7 +125,7 @@
 		"titleBar.activeForeground": "#b8b7bc",
 		"titleBar.border": "#4d4d50",
 		"titleBar.inactiveBackground": "#414045",
-		"titleBar.inactiveForeground": "#b8b7bc",
+		"titleBar.inactiveForeground": "#b8b7bc"
 
 		//"badge.background": "#4d4d4d",
 		//"badge.foreground": "#ffffff",
@@ -289,7 +290,8 @@
 		//"tree.indentGuidesStroke": "#585858",
 		//"widget.shadow": "#000000"
 	},
-	"tokenColors": [{
+	"tokenColors": [
+		{
 			"name": "Comment",
 			"scope": "comment",
 			"settings": {
@@ -298,10 +300,7 @@
 		},
 		{
 			"name": "Preprocessor Statements",
-			"scope": [
-				"meta.preprocessor",
-				"keyword.control.import"
-			],
+			"scope": ["meta.preprocessor", "keyword.control.import"],
 			"settings": {
 				"foreground": "#7D4726"
 			}
@@ -329,20 +328,14 @@
 		},
 		{
 			"name": "User-defined constant",
-			"scope": [
-				"constant.character",
-				"constant.other"
-			],
+			"scope": ["constant.character", "constant.other"],
 			"settings": {
 				"foreground": "#275A5E"
 			}
 		},
 		{
 			"name": "Variable",
-			"scope": [
-				"variable.language",
-				"variable.other"
-			],
+			"scope": ["variable.language", "variable.other"],
 			"settings": {
 				"foreground": "#C800A4"
 			}
@@ -413,10 +406,7 @@
 		},
 		{
 			"name": "Library class/type",
-			"scope": [
-				"support.type",
-				"support.class"
-			],
+			"scope": ["support.type", "support.class"],
 			"settings": {
 				"foreground": "#790EAD"
 			}
