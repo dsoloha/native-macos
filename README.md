@@ -37,7 +37,7 @@ You can also hide the Activity bar and replace it with an extension like [Activi
 "vscode_vibrancy.opacity": 0
 ```
 
-If you'd like, you can also disable to minimap, though I personally prefer to keep mine on for east of use.
+If you'd like, you can also disable to minimap, though I personally prefer to keep mine on for ease of use.
 
 ```json
 "editor.minimap.enabled": false
