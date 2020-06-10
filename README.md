@@ -51,7 +51,7 @@ The easiest option is to use an application like [LiteIcon](https://freemacsoft.
 
 Navigate to your applications folder and find Visual Studio Code. Right-click on it, then click "Show Package Contents". From here, navigate to **Contents**, then to **Resources**, then delete **Code.icns**. You will replace this icon with the custom icon included.
 
-Navigate to the Visual Studio Code extensions folder (`Users/your-name/.vscode/extensions`)[^1]. Find the Native macOS Theme Folder (`dsoloha.native-macos-0.0.1`), then right-click `icon.icns` and click "Duplicate". Rename the duplicate to "Icon.icns" and drag it into the Visual Studio Code Resources folder from earlier.
+Navigate to the Visual Studio Code extensions folder (`Users/your-name/.vscode/extensions`)<sup>[1](#hidden-folders)</sup>. Find the Native macOS Theme Folder (`dsoloha.native-macos-0.0.1`), then right-click `icon.icns` and click "Duplicate". Rename the duplicate to "Icon.icns" and drag it into the Visual Studio Code Resources folder from earlier.
 
 Restart Visual Studio Code. Remove it from your dock and re-add it, if necessary.
 
@@ -61,4 +61,4 @@ Open the directory in which you installed Visual Studio Code (`C:\users\{usernam
 
 Restart Visual Studio Code.
 
-[^1]: If the `.vscode` folder isn't showing, press `Shift` + `⌘` + `.` to show your hidden folders.
+<a name="hidden-folders">1</a>: If the `.vscode` folder isn't showing, press `Shift` + `⌘` + `.` to show your hidden folders.
