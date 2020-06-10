@@ -61,4 +61,4 @@ Open the directory in which you installed Visual Studio Code (`C:\users\{usernam
 
 Restart Visual Studio Code.
 
-<sup id="hidden-folders">1</sup>: If the `.vscode` folder isn't showing, press `Shift` + `⌘` + `.` to show your hidden folders.
+<sup id="hidden-folders">1</sup>If the `.vscode` folder isn't showing, press `Shift` + `⌘` + `.` to show your hidden folders.
