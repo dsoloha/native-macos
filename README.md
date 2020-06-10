@@ -57,7 +57,7 @@ Restart Visual Studio Code. Remove it from your dock and re-add it, if necessary
 
 ## To replace the program icon on Windows
 
-Open the directory in which you installed Visual Studio Code (`C:\users\{username}\AppData\Local\Programs\Microsoft VS Code` by default). Right-click the `VSCode.exe` executable, then click **Properties**, then press the **Change Icon** button. From here, navigate to the Visual Studio Code extensions directory (`%USERPROFILE%\.vscode\extensions` by default). Double-click on `icon.ico`.
+Open the directory in which you installed Visual Studio Code (`C:\users\your-name}\AppData\Local\Programs\Microsoft VS Code` by default). Right-click the `VSCode.exe` executable, then click **Properties**, then press the **Change Icon** button. From here, navigate to the Visual Studio Code extensions directory (`%USERPROFILE%\.vscode\extensions` by default). Double-click on `icon.ico`.
 
 Restart Visual Studio Code.
 
