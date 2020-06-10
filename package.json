@@ -15,7 +15,7 @@
     ],
     "preview": true,
     "homepage": "https://github.com/dsoloha/native-macos",
-    "icon": "./icon.png",
+    "icon": "icon.png",
     "repository": {
         "type": "git",
         "url": "https://github.com/dsoloha/native-macos.git"
