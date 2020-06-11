@@ -2,7 +2,15 @@
 
 All notable changes to the "native-macos" extension will be documented in this file, and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [Unreleased]
+## [0.2.1] - 202-06-10
+
+### Changed
+
+- `gitDecoration` colors to not blend in with selected item color
+
+### Removed
+
+- Unused properties
 
 ## [0.0.1] - 2020-06-10
 
