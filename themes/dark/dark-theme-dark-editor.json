@@ -5,7 +5,6 @@
 	"colors": {
 		"activityBar.background": "#303136",
 		"activityBar.border": "#414045",
-		"activityBar.dropBackground": "#555555cc",
 		"activityBar.foreground": "#ffffff",
 		"activityBar.inactiveForeground": "#ffffff8f",
 		"activityBarBadge.background": "#199aff",
@@ -95,7 +94,6 @@
 		"list.warningForeground": "#cca700",
 		"panel.background": "#242529",
 		"panel.border": "#4d4d50",
-		"panel.dropBackground": "#555555",
 		"panelTitle.activeBorder": "#ff000000",
 		"panelTitle.activeForeground": "#ffffff",
 		"panelTitle.inactiveForeground": "#ffffff8f",

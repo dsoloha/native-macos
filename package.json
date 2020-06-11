@@ -2,7 +2,7 @@
     "name": "native-macos",
     "displayName": "Native macOS",
     "description": "A theme designed to mimic macOS's native apps, such as Finder and Xcode.",
-    "version": "0.0.1",
+    "version": "0.1.0",
     "publisher": "dsoloha",
     "engines": {
         "vscode": "^1.45.0"
@@ -15,7 +15,7 @@
     ],
     "preview": true,
     "homepage": "https://github.com/dsoloha/native-macos",
-    "icon": "./icon.png",
+    "icon": "icon.png",
     "repository": {
         "type": "git",
         "url": "https://github.com/dsoloha/native-macos.git"
