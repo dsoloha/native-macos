@@ -2,7 +2,7 @@
 
 **Note: This extension is still very much a work-in-progress.** Please report bugs to [the GitHub repository](https://github.com/dsoloha/native-macos/issues).
 
-Native macOS is a color theme for [Visual Studio Code](https://code.visualstudio.com) that aims to match native macOS applications as closely as possible. The extension includes four versions - two light and two dark, with a light and a dark editor version for each.
+Native macOS is a color theme for [Visual Studio Code](https://code.visualstudio.com) that aims to match native macOS applications as closely as possible. The extension includes four versions - two light and two dark, with a light and a dark editor version for each. You can download it [here](https://marketplace.visualstudio.com/items?itemName=dsoloha.native-macos).
 
 **Native macOS - Light Theme**
 ![Light theme, light editor](/images/light-theme-light-editor.png "Light theme, light editor")
