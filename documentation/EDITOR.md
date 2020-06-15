@@ -6,85 +6,6 @@ The Visual Studio Code editor is made up of a number of distinct areas, each wit
 
 ## Editor
 
-## Side Bar
-
-## Status Bar
-
-## Activity Bar
-
-## Panels
-
-- `activityBar.activeBackground`
-- `activityBar.activeBorder`
-- `activityBar.activeFocusBorder`
-- `activityBar.background`
-- `activityBar.border`
-- `activityBar.dropBorder`
-- `activityBar.foreground`
-- `activityBar.inactiveForeground`
-- `activityBarBadge.background`
-- `activityBarBadge.foreground`
-- `badge.background`
-- `badge.foreground`
-- `breadcrumb.activeSelectionForeground`
-- `breadcrumb.background`
-- `breadcrumb.focusForeground`
-- `breadcrumb.foreground`
-- `breadcrumbPicker.background`
-- `button.background`
-- `button.foreground`
-- `button.hoverBackground`
-- `checkbox.background`
-- `checkbox.border`
-- `checkbox.foreground`
-- `contrastActiveBorder`
-- `contrastBorder`
-- `debugConsole.errorForeground`
-- `debugConsole.infoForeground`
-- `debugConsole.sourceForeground`
-- `debugConsole.warningForeground`
-- `debugConsoleInputIcon.foreground`
-- `debugExceptionWidget.background`
-- `debugExceptionWidget.border`
-- `debugIcon.breakpointCurrentStackframeForeground`
-- `debugIcon.breakpointDisabledForeground`
-- `debugIcon.breakpointForeground`
-- `debugIcon.breakpointStackframeForeground`
-- `debugIcon.breakpointUnverifiedForeground`
-- `debugIcon.continueForeground`
-- `debugIcon.disconnectForeground`
-- `debugIcon.pauseForeground`
-- `debugIcon.restartForeground`
-- `debugIcon.startForeground`
-- `debugIcon.stepBackForeground`
-- `debugIcon.stepIntoForeground`
-- `debugIcon.stepOutForeground`
-- `debugIcon.stepOverForeground`
-- `debugIcon.stopForeground`
-- `debugTokenExpression.boolean`
-- `debugTokenExpression.error`
-- `debugTokenExpression.name`
-- `debugTokenExpression.number`
-- `debugTokenExpression.string`
-- `debugTokenExpression.value`
-- `debugToolBar.background`
-- `debugToolBar.border`
-- `debugView.exceptionLabelBackground`
-- `debugView.exceptionLabelForeground`
-- `debugView.stateLabelBackground`
-- `debugView.stateLabelForeground`
-- `debugView.valueChangedHighlight`
-- `descriptionForeground`
-- `diffEditor.border`
-- `diffEditor.diagonalFill`
-- `diffEditor.insertedTextBackground`
-- `diffEditor.insertedTextBorder`
-- `diffEditor.removedTextBackground`
-- `diffEditor.removedTextBorder`
-- `dropdown.background`
-- `dropdown.border`
-- `dropdown.foreground`
-- `dropdown.listBackground`
 - `editor.background`
 - `editor.findMatchBackground`
 - `editor.findMatchBorder`
@@ -189,6 +110,128 @@ The Visual Studio Code editor is made up of a number of distinct areas, each wit
 - `editorWidget.border`
 - `editorWidget.foreground`
 - `editorWidget.resizeBorder`
+
+## Side Bar
+
+- `sideBar.background`
+- `sideBar.border`
+- `sideBar.dropBackground`
+- `sideBar.foreground`
+- `sideBarSectionHeader.background`
+- `sideBarSectionHeader.border`
+- `sideBarSectionHeader.foreground`
+- `sideBarTitle.foreground`
+
+## Status Bar
+
+- `statusBar.background`
+- `statusBar.border`
+- `statusBar.debuggingBackground`
+- `statusBar.debuggingBorder`
+- `statusBar.debuggingForeground`
+- `statusBar.foreground`
+- `statusBar.noFolderBackground`
+- `statusBar.noFolderBorder`
+- `statusBar.noFolderForeground`
+- `statusBarItem.activeBackground`
+- `statusBarItem.hoverBackground`
+- `statusBarItem.prominentBackground`
+- `statusBarItem.prominentForeground`
+- `statusBarItem.prominentHoverBackground`
+- `statusBarItem.remoteBackground`
+- `statusBarItem.remoteForeground`
+
+## Activity Bar
+
+- `activityBar.activeBackground`
+- `activityBar.activeBorder`
+- `activityBar.activeFocusBorder`
+- `activityBar.background`
+- `activityBar.border`
+- `activityBar.dropBorder`
+- `activityBar.foreground`
+- `activityBar.inactiveForeground`
+- `activityBarBadge.background`
+- `activityBarBadge.foreground`
+
+## Panels
+
+- `panel.background`
+- `panel.border`
+- `panel.dropBorder`
+- `panelInput.border`
+- `panelSection.border`
+- `panelSection.dropBackground`
+- `panelSectionHeader.background`
+- `panelSectionHeader.border`
+- `panelSectionHeader.foreground`
+- `panelTitle.activeBorder`
+- `panelTitle.activeForeground`
+- `panelTitle.inactiveForeground`
+
+## Uncategorized
+
+- `badge.background`
+- `badge.foreground`
+- `breadcrumb.activeSelectionForeground`
+- `breadcrumb.background`
+- `breadcrumb.focusForeground`
+- `breadcrumb.foreground`
+- `breadcrumbPicker.background`
+- `button.background`
+- `button.foreground`
+- `button.hoverBackground`
+- `checkbox.background`
+- `checkbox.border`
+- `checkbox.foreground`
+- `contrastActiveBorder`
+- `contrastBorder`
+- `debugConsole.errorForeground`
+- `debugConsole.infoForeground`
+- `debugConsole.sourceForeground`
+- `debugConsole.warningForeground`
+- `debugConsoleInputIcon.foreground`
+- `debugExceptionWidget.background`
+- `debugExceptionWidget.border`
+- `debugIcon.breakpointCurrentStackframeForeground`
+- `debugIcon.breakpointDisabledForeground`
+- `debugIcon.breakpointForeground`
+- `debugIcon.breakpointStackframeForeground`
+- `debugIcon.breakpointUnverifiedForeground`
+- `debugIcon.continueForeground`
+- `debugIcon.disconnectForeground`
+- `debugIcon.pauseForeground`
+- `debugIcon.restartForeground`
+- `debugIcon.startForeground`
+- `debugIcon.stepBackForeground`
+- `debugIcon.stepIntoForeground`
+- `debugIcon.stepOutForeground`
+- `debugIcon.stepOverForeground`
+- `debugIcon.stopForeground`
+- `debugTokenExpression.boolean`
+- `debugTokenExpression.error`
+- `debugTokenExpression.name`
+- `debugTokenExpression.number`
+- `debugTokenExpression.string`
+- `debugTokenExpression.value`
+- `debugToolBar.background`
+- `debugToolBar.border`
+- `debugView.exceptionLabelBackground`
+- `debugView.exceptionLabelForeground`
+- `debugView.stateLabelBackground`
+- `debugView.stateLabelForeground`
+- `debugView.valueChangedHighlight`
+- `descriptionForeground`
+- `diffEditor.border`
+- `diffEditor.diagonalFill`
+- `diffEditor.insertedTextBackground`
+- `diffEditor.insertedTextBorder`
+- `diffEditor.removedTextBackground`
+- `diffEditor.removedTextBorder`
+- `dropdown.background`
+- `dropdown.border`
+- `dropdown.foreground`
+- `dropdown.listBackground`
 - `errorForeground`
 - `extensionBadge.remoteBackground`
 - `extensionBadge.remoteForeground`
@@ -279,7 +322,7 @@ The Visual Studio Code editor is made up of a number of distinct areas, each wit
 - `minimapSlider.hoverBackground`
 - `notebook.cellBorderColor`
 - `notebook.cellStatusBarItemHoverBackground`
-- `notebook.cellToolbarSeperator`
+- `notebook.cellToolbarSeparator`
 - `notebook.focusedCellIndicator`
 - `notebook.outputContainerBackgroundColor`
 - `notebookStatusErrorIcon.foreground`
@@ -296,18 +339,6 @@ The Visual Studio Code editor is made up of a number of distinct areas, each wit
 - `notificationsInfoIcon.foreground`
 - `notificationsWarningIcon.foreground`
 - `notificationToast.border`
-- `panel.background`
-- `panel.border`
-- `panel.dropBorder`
-- `panelInput.border`
-- `panelSection.border`
-- `panelSection.dropBackground`
-- `panelSectionHeader.background`
-- `panelSectionHeader.border`
-- `panelSectionHeader.foreground`
-- `panelTitle.activeBorder`
-- `panelTitle.activeForeground`
-- `panelTitle.inactiveForeground`
 - `peekView.border`
 - `peekViewEditor.background`
 - `peekViewEditor.matchHighlightBackground`
@@ -354,30 +385,6 @@ The Visual Studio Code editor is made up of a number of distinct areas, each wit
 - `settings.textInputBackground`
 - `settings.textInputBorder`
 - `settings.textInputForeground`
-- `sideBar.background`
-- `sideBar.border`
-- `sideBar.dropBackground`
-- `sideBar.foreground`
-- `sideBarSectionHeader.background`
-- `sideBarSectionHeader.border`
-- `sideBarSectionHeader.foreground`
-- `sideBarTitle.foreground`
-- `statusBar.background`
-- `statusBar.border`
-- `statusBar.debuggingBackground`
-- `statusBar.debuggingBorder`
-- `statusBar.debuggingForeground`
-- `statusBar.foreground`
-- `statusBar.noFolderBackground`
-- `statusBar.noFolderBorder`
-- `statusBar.noFolderForeground`
-- `statusBarItem.activeBackground`
-- `statusBarItem.hoverBackground`
-- `statusBarItem.prominentBackground`
-- `statusBarItem.prominentForeground`
-- `statusBarItem.prominentHoverBackground`
-- `statusBarItem.remoteBackground`
-- `statusBarItem.remoteForeground`
 - `symbolIcon.arrayForeground`
 - `symbolIcon.booleanForeground`
 - `symbolIcon.classForeground`

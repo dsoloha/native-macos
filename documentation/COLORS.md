@@ -2,168 +2,168 @@
 
 Native macOS uses a color pallette modelled after Xcode's where possible. Where there are differences in features between Visual Studio Code and Xcode, either the nearest color available in Xcode is used, one of [Apple's official colors](https://developer.apple.com/design/human-interface-guidelines/macos/visual-design/color/) is used, or a color is created based on the existing pallette.
 
-All colors use the standard RRGGBBAA format, with lowercase letters for better at-a-glance readability.
+All colors use the standard #RRGGBBAA format, with lowercase letters for better at-a-glance readability. Alpha channel values are only used when necessary ([here's a list of transparency codes](https://gist.github.com/lopspower/03fb1cc0ac9f32ef38f4)).
 
 ## Light Theme Colors
 
-"#000000"
-"#0a3caa"
-"#0a64ca"
-"#000000dd"
-"#2e2d2e"
-"#2e2e2e"
-"#2e3239"
-"#3a3a41"
-"#3cc85a"
-"#5c5c5c"
-"#5f6973"
-"#6e6e6e"
-"#7f8c98"
-"#9ce3ab"
-"#0077ff"
-"#80bfff"
-"#199aff"
-"#0369d922"
-"#505a6e"
-"#505a6ecc"
-"#1780fa"
-"#1780fa44"
-"#2863c8cc"
-"#2863c800"
-"#28282d"
-"#37373cdd"
-"#222222"
-"#444444"
-"#484851"
-"#666666"
-"#a8ac94"
-"#aaaaaa"
-"#afafaf"
-"#b4b4b44d"
-"#bbbbbb"
-"#bbbbbb"
-"#bdbdbd"
-"#bfbfbf"
-"#c9c9c9"
-"#cccccc"
-"#cdcdcd"
-"#cdcdcd00"
-"#cedeef"
-"#d5d5d5"
-"#d7d8d7"
-"#d9d6d7"
-"#dedcde"
-"#e5e5e5"
-"#e7e7e7"
-"#ededed"
-"#f9f5f5"
-"#fcfcfc"
-"#ff0000"
-"#ff000000"
-"#ff3c32"
-"#ff7ab3"
-"#ff8680"
-"#ffffff"
-"#ffffff00"
+- `#000000`
+- `#0a3caa`
+- `#0a64ca`
+- `#000000dd`
+- `#2e2d2e`
+- `#2e2e2e`
+- `#2e3239`
+- `#3a3a41`
+- `#3cc85a`
+- `#5c5c5c`
+- `#5f6973`
+- `#6e6e6e`
+- `#7f8c98`
+- `#9ce3ab`
+- `#0077ff`
+- `#80bfff`
+- `#199aff`
+- `#0369d922`
+- `#505a6e`
+- `#505a6ecc`
+- `#1780fa`
+- `#1780fa44`
+- `#2863c8cc`
+- `#2863c800`
+- `#28282d`
+- `#37373cdd`
+- `#222222`
+- `#444444`
+- `#484851`
+- `#666666`
+- `#a8ac94`
+- `#aaaaaa`
+- `#afafaf`
+- `#b4b4b44d`
+- `#bbbbbb`
+- `#bbbbbb`
+- `#bdbdbd`
+- `#bfbfbf`
+- `#c9c9c9`
+- `#cccccc`
+- `#cdcdcd`
+- `#cdcdcd00`
+- `#cedeef`
+- `#d5d5d5`
+- `#d7d8d7`
+- `#d9d6d7`
+- `#dedcde`
+- `#e5e5e5`
+- `#e7e7e7`
+- `#ededed`
+- `#f9f5f5`
+- `#fcfcfc`
+- `#ff0000`
+- `#ff000000`
+- `#ff3c32`
+- `#ff7ab3`
+- `#ff8680`
+- `#ffffff`
+- `#ffffff00`
 
 ## Dark Theme Colors
 
-"#000000"
-"#00000000"
-"#000000c0"
-"#1a191c"
-"#1e1e1e"
-"#2e2d2e"
-"#2e2e2e"
-"#3cc85a"
-"#3d3c40"
-"#4d4d50"
-"#4d8df4"
-"#4dbf57"
-"#4f4e53"
-"#9b9b9b"
-"#9ce3ab"
-"#027aff"
-"#0077ff"
-"#80bfff"
-"#199aff"
-"#393a3c"
-"#636f83"
-"#636f8380"
-"#2863c800"
-"#6699fe"
-"#242529"
-"#303136"
-"#414045"
-"#555555"
-"#696969"
-"#747478"
-"#30313600"
-"#30323980"
-"#a0a0a0"
-"#b7b7b7"
-"#b8b7bc"
-"#b9d7fa"
-"#d2d2d2"
-"#dbdbdb"
-"#dedcde"
-"#e21515"
-"#ece1e0"
-"#f0f5ff"
-"#f7f7f7"
-"#fcfbfc"
-"#ff000000"
-"#ff3c32"
-"#ff8680"
-"#ffc501"
-"#ffffff"
-"#ffffff00"
-"#ffffff1c"
-"#ffffff8f"
-"#ffffff8f"
-"#ffffff8f"
-"#ffffff8f"
-"#ffffff15"
-"#ffffff33"
-"#ffffffd8"
+- `#000000`
+- `#00000000`
+- `#000000c0`
+- `#1a191c`
+- `#1e1e1e`
+- `#2e2d2e`
+- `#2e2e2e`
+- `#3cc85a`
+- `#3d3c40`
+- `#4d4d50`
+- `#4d8df4`
+- `#4dbf57`
+- `#4f4e53`
+- `#9b9b9b`
+- `#9ce3ab`
+- `#027aff`
+- `#0077ff`
+- `#80bfff`
+- `#199aff`
+- `#393a3c`
+- `#636f83`
+- `#636f8380`
+- `#2863c800`
+- `#6699fe`
+- `#242529`
+- `#303136`
+- `#414045`
+- `#555555`
+- `#696969`
+- `#747478`
+- `#30313600`
+- `#30323980`
+- `#a0a0a0`
+- `#b7b7b7`
+- `#b8b7bc`
+- `#b9d7fa`
+- `#d2d2d2`
+- `#dbdbdb`
+- `#dedcde`
+- `#e21515`
+- `#ece1e0`
+- `#f0f5ff`
+- `#f7f7f7`
+- `#fcfbfc`
+- `#ff000000`
+- `#ff3c32`
+- `#ff8680`
+- `#ffc501`
+- `#ffffff`
+- `#ffffff00`
+- `#ffffff1c`
+- `#ffffff8f`
+- `#ffffff8f`
+- `#ffffff8f`
+- `#ffffff8f`
+- `#ffffff15`
+- `#ffffff33`
+- `#ffffffd8`
 
 ## Light Editor Colors
 
-"#3a00dc"
-"#275a5e"
-"#316bcd"
-"#734b32"
-"#737d8c"
-"#790ead"
-"#222222",
-"#438288"
-"#450084"
-"#800080"
-"#c83d28"
-"#c800a4"
-"#c900a4"
-"#cd3131"
-"#cd9731"
+- `#3a00dc`
+- `#275a5e`
+- `#316bcd`
+- `#734b32`
+- `#737d8c`
+- `#790ead`
+- `#222222"`
+- `#438288`
+- `#450084`
+- `#800080`
+- `#c83d28`
+- `#c800a4`
+- `#c900a4`
+- `#cd3131`
+- `#cd9731`
 
 ## Dark Editor Colors
 
-"#7f8c98"
-"#9ef1de"
-"#64afc8"
-"#64b4a0"
-"#87beb4"
-"#87dbfa"
-"#316bcd"
-"#9664c8"
-"#800080"
-"#a0f0dc"
-"#aa82e6"
-"#bef0e6"
-"#cd3131"
-"#cd9731"
-"#d2befa"
-"#d9c97c"
-"#f0a55f"
-"#f082b0"
-"#ff8270"
-"#ffffff",
+- `#7f8c98`
+- `#9ef1de`
+- `#64afc8`
+- `#64b4a0`
+- `#87beb4`
+- `#87dbfa`
+- `#316bcd`
+- `#9664c8`
+- `#800080`
+- `#a0f0dc`
+- `#aa82e6`
+- `#bef0e6`
+- `#cd3131`
+- `#cd9731`
+- `#d2befa`
+- `#d9c97c`
+- `#f0a55f`
+- `#f082b0`
+- `#ff8270`
+- `#ffffff"`

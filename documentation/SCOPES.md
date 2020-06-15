@@ -4,7 +4,21 @@ Different types of symbols and operators have their own "scope", which can be ed
 
 ## `comment`
 
+- `line`
+  - `double-slash`
+  - `double-dash`
+  - `number-sign`
+  - `percentage`
+- `block`
+  - `documentation`
+
 ## `constant`
+
+- `numeric`
+- `character`
+  - `escape`
+- `language`
+- `other`
 
 ## `entity`
 
