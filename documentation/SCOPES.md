@@ -22,11 +22,39 @@ Different types of symbols and operators have their own "scope", which can be ed
 
 ## `entity`
 
+- `name`
+  - `function`
+  - `type`
+  - `tag`
+  - `section`
+- `other`
+  - `inherited-class`
+  - `attribute-name`
+
 ## `invalid`
+
+- `illegal`
+- `deprecated`
 
 ## `keyword`
 
+- `control`
+- `operator`
+- `other`
+
 ## `markup`
+
+- `underline`
+  - `link`
+- `bold`
+- `heading`
+- `italic`
+- `list`
+  - `numbered`
+  - `unnumbered`
+- `quote`
+- `raw`
+- `other`
 
 ## `meta`
 
@@ -36,10 +64,34 @@ Different types of symbols and operators have their own "scope", which can be ed
 
 ## `storage`
 
+- `type`
+- `modifier`
+
 ## `string`
 
+- `quoted`
+  - `single`
+  - `double`
+  - `triple`
+  - `other`
+- `unquoted`
+- `interpolated`
+- `regexp`
+- `other`
+
 ## `support`
+
+- `function`
+- `class`
+- `type`
+- `constant`
+- `variable`
+- `other`
 
 ## `text`
 
 ## `variable`
+
+- `parameter`
+- `language`
+- `other`
