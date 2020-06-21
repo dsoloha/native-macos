@@ -195,43 +195,56 @@ Scrollbar Control
 - `editor.findMatchHighlightBorder`
 - `editor.findRangeHighlightBackground`
 - `editor.findRangeHighlightBorder`
-- `editor.foldBackground`
 - `editor.foreground`
 - `editor.hoverHighlightBackground`
-- `editor.inactiveSelectionBackground`
 - `editor.lineHighlightBackground`
 - `editor.lineHighlightBorder`
 - `editor.rangeHighlightBackground`
 - `editor.rangeHighlightBorder`
+- `editor.symbolHighlightBackground`
+- `editor.symbolHighlightBorder`
+
+### Selection Colors
+
+- `editor.inactiveSelectionBackground`
 - `editor.selectionBackground`
 - `editor.selectionForeground`
 - `editor.selectionHighlightBackground`
 - `editor.selectionHighlightBorder`
-- `editor.symbolHighlightBackground`
-- `editor.symbolHighlightBorder`
+
+### Word Highlights
+
 - `editor.wordHighlightBackground`
 - `editor.wordHighlightBorder`
 - `editor.wordHighlightStrongBackground`
 - `editor.wordHighlightStrongBorder`
+
+### Indent Guides
+
+**Note:** To display indent guides, use `editor.renderIndentGuides` in `settings.json`.
+
+- `editorIndentGuide.activeBackground`
+- `editorIndentGuide.background`
+
+### Rulers
+
+**Note:** To display rulers, use `editor.rulers` in `settings.json`.
+
+- `editorRuler.foreground`
+
+### Bracket Matches
+
 - `editorBracketMatch.background`
 - `editorBracketMatch.border`
+
+### Codelens
+
 - `editorCodeLens.foreground`
 - `editorCursor.background`
 - `editorCursor.foreground`
-- `editorError.border`
-- `editorError.foreground`
-- `editorGutter.addedBackground`
-- `editorGutter.background`
-- `editorGutter.commentRangeForeground`
-- `editorGutter.deletedBackground`
-- `editorGutter.foldingControlForeground`
-- `editorGutter.modifiedBackground`
-- `editorHint.border`
-- `editorHint.foreground`
-- `editorIndentGuide.activeBackground`
-- `editorIndentGuide.background`
-- `editorInfo.border`
-- `editorInfo.foreground`
+
+### Lightbulb
+
 - `editorLightBulb.foreground`
 - `editorLightBulbAutoFix.foreground`
 - `editorLineNumber.activeForeground`
@@ -241,6 +254,9 @@ Scrollbar Control
 - `editorMarkerNavigationError.background`
 - `editorMarkerNavigationInfo.background`
 - `editorMarkerNavigationWarning.background`
+
+### Overview Ruler
+
 - `editorOverviewRuler.addedForeground`
 - `editorOverviewRuler.background`
 - `editorOverviewRuler.border`
@@ -255,18 +271,42 @@ Scrollbar Control
 - `editorOverviewRuler.warningForeground`
 - `editorOverviewRuler.wordHighlightForeground`
 - `editorOverviewRuler.wordHighlightStrongForeground`
-- `editorRuler.foreground`
-- `editorUnnecessaryCode.border`
-- `editorUnnecessaryCode.opacity`
-- `editorWarning.border`
-- `editorWarning.foreground`
 - `editorWhitespace.foreground`
-- `problemsErrorIcon.foreground`
-- `problemsInfoIcon.foreground`
-- `problemsWarningIcon.foreground`
 - `searchEditor.findMatchBackground`
 - `searchEditor.findMatchBorder`
 - `searchEditor.textInputBorder`
+
+### Errors and Warnings
+
+- `editorError.border`
+- `editorError.foreground`
+- `editorHint.border`
+- `editorHint.foreground`
+- `editorInfo.border`
+- `editorInfo.foreground`
+- `editorWarning.border`
+- `editorWarning.foreground`
+- `problemsErrorIcon.foreground`
+- `problemsInfoIcon.foreground`
+- `problemsWarningIcon.foreground`
+
+### Unused Source Code
+
+- `editorUnnecessaryCode.border`
+- `editorUnnecessaryCode.opacity`
+
+### Gutter
+
+- `editorGutter.addedBackground`
+- `editorGutter.background`
+- `editorGutter.commentRangeForeground`
+- `editorGutter.deletedBackground`
+- `editorGutter.foldingControlForeground`
+- `editorGutter.modifiedBackground`
+
+### Folding
+
+- `editor.foldBackground`
 
 ## Diff Editor Colors
 
