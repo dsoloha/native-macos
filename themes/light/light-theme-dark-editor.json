@@ -231,13 +231,13 @@
 		// "terminal.ansiBrightCyan": "#0598bc",
 		// "terminal.ansiBrightGreen": "#14ce14",
 		// "terminal.ansiBrightMagenta": "#bc05bc",
-		// "terminal.ansiBrightRed": "#cd3131",
+		// "terminal.ansiBrightRed": "#c83232",
 		// "terminal.ansiBrightWhite": "#a5a5a5",
 		// "terminal.ansiBrightYellow": "#b5ba00",
 		// "terminal.ansiCyan": "#0598bc",
 		// "terminal.ansiGreen": "#00bc00",
 		// "terminal.ansiMagenta": "#bc05bc",
-		// "terminal.ansiRed": "#cd3131",
+		// "terminal.ansiRed": "#c83232",
 		// "terminal.ansiWhite": "#555555",
 		// "terminal.ansiYellow": "#949800",
 		// "terminal.foreground": "#333333",
@@ -662,22 +662,22 @@
 		}, {
 			"scope": "token.info-token",
 			"settings": {
-				"foreground": "#316bcd"
+				"foreground": "#3269c8"
 			}
 		}, {
 			"scope": "token.warn-token",
 			"settings": {
-				"foreground": "#cd9731"
+				"foreground": "#c89632"
 			}
 		}, {
 			"scope": "token.error-token",
 			"settings": {
-				"foreground": "#cd3131"
+				"foreground": "#c83232"
 			}
 		}, {
 			"scope": "token.debug-token",
 			"settings": {
-				"foreground": "#800080"
+				"foreground": "#820082"
 			}
 		}
 	]
