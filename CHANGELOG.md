@@ -7,6 +7,7 @@ All notable changes to the "native-macos" extension will be documented in this f
 ### Changed
 
 - Updated documentation for scopes
+- Updated documentation for editor
 
 ## [0.3.1] - 2020-06-14
 
