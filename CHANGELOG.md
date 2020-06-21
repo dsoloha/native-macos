@@ -6,6 +6,7 @@ All notable changes to the "native-macos" extension will be documented in this f
 
 ### Changed
 
+- Updated documentation for colors
 - Updated documentation for scopes
 - Updated documentation for editor
 
