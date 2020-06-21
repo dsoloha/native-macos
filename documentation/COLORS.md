@@ -105,7 +105,7 @@ All colors use the standard #RRGGBBAA format, with lowercase letters for better 
 
 - `#3c00dc`
 - `#285a5f`
-- `#3269c8`
+- `#3264c8`
 - `#734b32`
 - `#737d8c`
 - `#780faf`
@@ -121,22 +121,21 @@ All colors use the standard #RRGGBBAA format, with lowercase letters for better 
 ## Dark Editor Colors
 
 - `#828c96`
-- `#9ef1de`
+- `#a0f0dc`
 - `#64afc8`
 - `#64b4a0`
 - `#87beb4`
-- `#87dbfa`
-- `#3269c8`
+- `#87dcfa`
+- `#3264c8`
 - `#9664c8`
 - `#820082`
-- `#a0f0dc`
 - `#aa82e6`
 - `#bef0e6`
 - `#c83232`
 - `#c89632`
 - `#d2befa`
-- `#d9c97c`
-- `#f0a55f`
-- `#f082b0`
-- `#ff8270`
+- `#d7cd7d`
+- `#f5a55f`
+- `#f082aa`
+- `#ff8773`
 - `#ffffff"`

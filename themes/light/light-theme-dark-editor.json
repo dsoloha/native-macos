@@ -482,13 +482,13 @@
 				"keyword.control.import"
 			],
 			"settings": {
-				"foreground": "#f0a55f"
+				"foreground": "#f5a55f"
 			}
 		}, {
 			"name": "String",
 			"scope": "string",
 			"settings": {
-				"foreground": "#ff8270"
+				"foreground": "#ff8773"
 			}
 		}, {
 			"name": "Template string expressions",
@@ -513,13 +513,13 @@
 			"name": "Number",
 			"scope": "constant.numeric",
 			"settings": {
-				"foreground": "#d9c97c"
+				"foreground": "#d7cd7d"
 			}
 		}, {
 			"name": "Built-in constant",
 			"scope": "constant.language",
 			"settings": {
-				"foreground": "#f082b0",
+				"foreground": "#f082aa",
 				"fontStyle": "bold"
 			}
 		}, {
@@ -550,7 +550,7 @@
 				"keyword"
 			],
 			"settings": {
-				"foreground": "#f082b0",
+				"foreground": "#f082aa",
 				"fontStyle": "bold"
 			}
 		}, {
@@ -567,14 +567,14 @@
 			"name": "Storage",
 			"scope": "storage",
 			"settings": {
-				"foreground": "#f082b0",
+				"foreground": "#f082aa",
 				"fontStyle": "bold"
 			}
 		}, {
 			"name": "Types",
 			"scope": "support.type.property-name",
 			"settings": {
-				"foreground": "#87dbfa"
+				"foreground": "#87dcfa"
 			}
 		}, {
 			"name": "Class name",
@@ -613,20 +613,20 @@
 			"name": "Reserved keywords",
 			"scope": "variable.language",
 			"settings": {
-				"foreground": "#f082b0",
+				"foreground": "#f082aa",
 				"fontStyle": "bold"
 			}
 		}, {
 			"name": "Tag name",
 			"scope": "entity.name.tag",
 			"settings": {
-				"foreground": "#f082b0"
+				"foreground": "#f082aa"
 			}
 		}, {
 			"name": "Tag attribute",
 			"scope": "entity.other.attribute-name",
 			"settings": {
-				"foreground": "#d9c97c"
+				"foreground": "#d7cd7d"
 			}
 		}, {
 			"name": "Library function",
@@ -638,7 +638,7 @@
 			"name": "Library constant",
 			"scope": "support.constant",
 			"settings": {
-				"foreground": "#9ef1de"
+				"foreground": "#a0f0dc"
 			}
 		}, {
 			"name": "Library class/type",
@@ -662,7 +662,7 @@
 		}, {
 			"scope": "token.info-token",
 			"settings": {
-				"foreground": "#3269c8"
+				"foreground": "#3264c8"
 			}
 		}, {
 			"scope": "token.warn-token",
