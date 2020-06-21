@@ -2,69 +2,56 @@
 
 Native macOS uses a color pallette modelled after Xcode's where possible. Where there are differences in features between Visual Studio Code and Xcode, either the nearest color available in Xcode is used, one of [Apple's official colors](https://developer.apple.com/design/human-interface-guidelines/macos/visual-design/color/) is used, or a color is created based on the existing pallette.
 
-All colors use the standard #RRGGBBAA format, with lowercase letters for better at-a-glance readability. Alpha channel values are only used when necessary ([here's a list of transparency codes](https://gist.github.com/lopspower/03fb1cc0ac9f32ef38f4)).
+All colors use the standard #RRGGBBAA format, with lowercase letters for better at-a-glance readability. Alpha channel values are only used when necessary (a list of transparency codes can be found [here](https://gist.github.com/lopspower/03fb1cc0ac9f32ef38f4)). Colors with 0% opacity should use `#00000000` instead.
 
 ## Light Theme Colors
 
 - `#000000`
+- `#00000000`
+- `#000000cc`
 - `#0a3caa`
-- `#0a64ca`
-- `#000000dd`
-- `#2e2d2e`
-- `#2e2e2e`
-- `#2e3239`
-- `#3a3a41`
+- `#0a64c8`
+- `#2d2d2d`
+- `#2d3237`
+- `#3c3c41`
 - `#3cc85a`
-- `#5c5c5c`
+- `#5f5f5f`
 - `#5f6973`
 - `#6e6e6e`
-- `#7f8c98`
-- `#9ce3ab`
-- `#0077ff`
-- `#80bfff`
-- `#199aff`
-- `#0369d922`
+- `#9be1aa`
+- `#0064d740`
+- `#0078ff`
+- `#199bff`
 - `#505a6e`
 - `#505a6ecc`
-- `#1780fa`
-- `#1780fa44`
-- `#2863c8cc`
-- `#2863c800`
+- `#828c96`
+- `#1982fa`
+- `#1982fa40`
+- `#2864c8cc`
 - `#28282d`
-- `#37373cdd`
-- `#222222`
-- `#444444`
-- `#484851`
-- `#666666`
-- `#a8ac94`
-- `#aaaaaa`
+- `#37373ccc`
+- `#232323`
+- `#464646`
+- `#464650`
+- `#646464`
+- `#aaaa96`
 - `#afafaf`
-- `#b4b4b44d`
-- `#bbbbbb`
-- `#bbbbbb`
-- `#bdbdbd`
-- `#bfbfbf`
-- `#c9c9c9`
-- `#cccccc`
+- `#b4b4b440`
+- `#bebebe`
+- `#c8c8c8`
 - `#cdcdcd`
-- `#cdcdcd00`
-- `#cedeef`
-- `#d5d5d5`
+- `#cde1f5`
 - `#d7d8d7`
-- `#d9d6d7`
-- `#dedcde`
-- `#e5e5e5`
-- `#e7e7e7`
-- `#ededed`
-- `#f9f5f5`
-- `#fcfcfc`
+- `#dcdcdc`
+- `#e6e6e6`
+- `#ebebeb`
+- `#f5f5f5`
+- `#fafafa`
 - `#ff0000`
-- `#ff000000`
 - `#ff3c32`
-- `#ff7ab3`
-- `#ff8680`
+- `#ff78b4`
+- `#ff877d`
 - `#ffffff`
-- `#ffffff00`
 
 ## Dark Theme Colors
 
@@ -73,8 +60,8 @@ All colors use the standard #RRGGBBAA format, with lowercase letters for better 
 - `#000000c0`
 - `#1a191c`
 - `#1e1e1e`
-- `#2e2d2e`
-- `#2e2e2e`
+- `#2d2d2d`
+- `#2d2d2d`
 - `#3cc85a`
 - `#3d3c40`
 - `#4d4d50`
@@ -82,15 +69,15 @@ All colors use the standard #RRGGBBAA format, with lowercase letters for better 
 - `#4dbf57`
 - `#4f4e53`
 - `#9b9b9b`
-- `#9ce3ab`
+- `#9be1aa`
 - `#027aff`
-- `#0077ff`
-- `#80bfff`
-- `#199aff`
+- `#0078ff`
+- `#0078ff`
+- `#199bff`
 - `#393a3c`
 - `#636f83`
 - `#636f8380`
-- `#2863c800`
+- `#00000000`
 - `#6699fe`
 - `#242529`
 - `#303136`
@@ -106,18 +93,18 @@ All colors use the standard #RRGGBBAA format, with lowercase letters for better 
 - `#b9d7fa`
 - `#d2d2d2`
 - `#dbdbdb`
-- `#dedcde`
+- `#dcdcdc`
 - `#e21515`
 - `#ece1e0`
 - `#f0f5ff`
 - `#f7f7f7`
 - `#fcfbfc`
-- `#ff000000`
+- `#00000000`
 - `#ff3c32`
-- `#ff8680`
+- `#ff877d`
 - `#ffc501`
 - `#ffffff`
-- `#ffffff00`
+- `#00000000`
 - `#ffffff1c`
 - `#ffffff8f`
 - `#ffffff8f`
@@ -135,7 +122,7 @@ All colors use the standard #RRGGBBAA format, with lowercase letters for better 
 - `#734b32`
 - `#737d8c`
 - `#790ead`
-- `#222222"`
+- `#232323"`
 - `#438288`
 - `#450084`
 - `#800080`
@@ -147,7 +134,7 @@ All colors use the standard #RRGGBBAA format, with lowercase letters for better 
 
 ## Dark Editor Colors
 
-- `#7f8c98`
+- `#828c96`
 - `#9ef1de`
 - `#64afc8`
 - `#64b4a0`
