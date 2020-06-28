@@ -1,10 +1,51 @@
 # COLORS
 
+**NOTE: This is a work-in-progress!**
+
 Native macOS uses a color pallette modelled after Xcode's where possible. Where there are differences in features between Visual Studio Code and Xcode, either the nearest color available in Xcode is used, one of [Apple's official colors](https://developer.apple.com/design/human-interface-guidelines/macos/visual-design/color/) is used, or a color is created based on the existing pallette.
 
 All colors use the standard #RRGGBBAA format, with lowercase letters for better at-a-glance readability. Alpha channel values are only used when necessary (a list of transparency codes can be found [here](https://gist.github.com/lopspower/03fb1cc0ac9f32ef38f4)). Colors with 0% opacity should use `#00000000` instead.
 
 ## Light Theme Colors
+
+### Tab Bar
+
+- Active: `#cdcdcd`
+- Inactive: `#bebebe`
+- Border: `#afafaf`
+
+### Side Bar
+
+### Status Bar
+
+- Background: `#dcdcdc`
+
+### Breadcrumbs
+
+- Background: `#dcdcdc`
+
+### Editor
+
+- Background: `#292a2f`
+
+### Text
+
+- Active: `#000000`
+- Inactive: `#2d2d2d`
+
+### Widgets
+
+### Icons
+
+### Terminal
+
+### Buttons
+
+### Dropdowns
+
+- Background: `#cdcdcd`
+
+### Git
 
 - `#000000`
 - `#00000000`
@@ -54,6 +95,72 @@ All colors use the standard #RRGGBBAA format, with lowercase letters for better 
 - `#ffffff`
 
 ## Dark Theme Colors
+
+### Tab Bar
+
+- Active: `#3a3b3a`
+- Inactive: `#202020`
+
+### Side Bar
+
+- Background: `#2d2e2f`
+
+### Status Bar
+
+- Background: `#353534`
+- Border: `#676765`
+
+### Breadcrumbs
+
+- Background: `#272827`
+- Foreground: `#dedede`
+
+- Border: `#3c3d3c`
+
+### Editor
+
+- Background: `#292a2f`
+- Active Line: `#2e3239`
+
+### Text
+
+- Active: `#ffffff`
+- Inactive: `#a9a9a9`
+- Errors: `#e21515`
+- Warnings: `#ffc501`
+
+### Widgets
+
+- Background: `#29292a`
+- Border: `#595959`
+
+### Icons
+
+- Active: `#307bf6`
+- Inactive: `#848483`
+- Secondary Inactive: `#7e7f7f`
+
+### Terminal
+
+- Background: `#1f2020`
+- Border: `#000000`
+
+### Buttons
+
+- Background: `#787878`
+
+### Dropdowns
+
+- Background: `#373737`
+- Selection: `#0057cc`
+
+### Inputs
+
+- Background: `#1e1e1e`
+
+### Git
+
+- Modified: `#4082d4`
 
 - `#000000`
 - `#00000000`
