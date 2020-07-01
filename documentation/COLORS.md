@@ -16,13 +16,15 @@ All colors use the standard #RRGGBBAA format, with lowercase letters for better 
 
 ### Side Bar
 
+- Background: `#f6f6f6`
+
 ### Status Bar
 
-- Background: `#dcdcdc`
+- Background: `#f6f6f6`
 
 ### Breadcrumbs
 
-- Background: `#dcdcdc`
+- Background: `#ffffff`
 
 ### Editor
 
@@ -32,8 +34,13 @@ All colors use the standard #RRGGBBAA format, with lowercase letters for better 
 
 - Active: `#000000`
 - Inactive: `#2d2d2d`
+- Transparent: `#000000bf`
+- Selected: `#b9d7fa`
 
 ### Widgets
+
+- Background: `#cdcdcd`
+- Border: `#afafaf`
 
 ### Icons
 
@@ -47,22 +54,20 @@ All colors use the standard #RRGGBBAA format, with lowercase letters for better 
 
 ### Git
 
+- Modified: `#4082d4`
+
 - `#000000`
-- `#00000000`
-- `#000000cc`
-- `#0a3caa`
-- `#0a64c8`
-- `#2d2d2d`
-- `#2d3237`
-- `#3c3c41`
-- `#3cc85a`
+- `#000000bf`
+
+- `#3c3c3c`
+- `#32d74b`
 - `#5f5f5f`
 - `#5f6973`
 - `#6e6e6e`
-- `#9be1aa`
+- `#32d74b`
 - `#0064d740`
-- `#007dff`
-- `#199bff`
+- `#4082d4`
+- `#4082d4`
 - `#505a6e`
 - `#505a6ecc`
 - `#828c96`
@@ -89,26 +94,38 @@ All colors use the standard #RRGGBBAA format, with lowercase letters for better 
 - `#f5f5f5`
 - `#fafafa`
 - `#ff0000`
-- `#ff3c32`
+- `#ff453a`
 - `#ff78b4`
-- `#ff877d`
+- `#ff453a`
 - `#ffffff`
+- `#f5f5ff`
 
 ## Dark Theme Colors
 
 ### Tab Bar
 
 - Active: `#3a3b3a`
+  - Text: ``
 - Inactive: `#202020`
+  - Text: `#b9b9b9`
+- Border: `#3c3c3c`
+- Empty: `#323237`
+
+### Activity Bar
+
+- Border: `#414141`
 
 ### Side Bar
 
 - Background: `#2d2e2f`
+- Border: `#191919`
+- Section Header: `#323237`
+- Drop Background: `#555555`
 
 ### Status Bar
 
-- Background: `#353534`
-- Border: `#676765`
+- Background: `#353535`
+- Border: `#676767`
 
 ### Breadcrumbs
 
@@ -121,17 +138,23 @@ All colors use the standard #RRGGBBAA format, with lowercase letters for better 
 
 - Background: `#292a2f`
 - Active Line: `#2e3239`
+- Fold Background: `#323232bf`
 
 ### Text
 
 - Active: `#ffffff`
 - Inactive: `#a9a9a9`
 - Errors: `#e21515`
-- Warnings: `#ffc501`
+- Transparent: `#000000bf`
+- Warnings: `#ffd60a`
+- Selected: `#646e82`
+  - Inactive: `#d2d2d2`
+- Links: `#32d74b`
+- Line Numbers: `#737378`
 
 ### Widgets
 
-- Background: `#29292a`
+- Background: `#292929`
 - Border: `#595959`
 
 ### Icons
@@ -140,14 +163,15 @@ All colors use the standard #RRGGBBAA format, with lowercase letters for better 
 - Inactive: `#848483`
 - Secondary Inactive: `#7e7f7f`
 
-### Terminal
+### Panels
 
-- Background: `#1f2020`
-- Border: `#000000`
+- Background: `#292a2f`
+- Border: `#4b4b4b`
 
 ### Buttons
 
 - Background: `#787878`
+- Foreground: `#fafafa`
 
 ### Dropdowns
 
@@ -157,56 +181,17 @@ All colors use the standard #RRGGBBAA format, with lowercase letters for better 
 ### Inputs
 
 - Background: `#1e1e1e`
+- Border: `#9b9b9b`
 
 ### Git
 
+- Added: `#32d74b`
 - Modified: `#4082d4`
+- Deleted: `#ff453a`
 
-- `#000000`
-- `#00000000`
-- `#000000cc`
-- `#191919`
-- `#2d2d2d`
-- `#3cc85a`
-- `#3c3c41`
-- `#4b4b50`
-- `#4b8cf5`
-- `#4bbe55`
-- `#505050`
-- `#9b9b9b`
-- `#9be1aa`
-- `#007dff`
-- `#199bff`
-- `#3c3c3c`
-- `#646e82`
-- `#646e8280`
-- `#6495fa`
-- `#232328`
-- `#323237`
-- `#414146`
-- `#555555`
-- `#696969`
-- `#737378`
-- `#32323780`
-- `#a0a0a0`
-- `#b9b9b9`
-- `#b9d7fa`
-- `#d2d2d2`
-- `#dcdcdc`
-- `#e11414`
-- `#ebe1e1`
-- `#f5f5ff`
-- `#f5f5f5`
-- `#fafafa`
-- `#ff3c32`
-- `#ff877d`
-- `#ffc501`
-- `#ffffff`
-- `#ffffff1a`
-- `#ffffff80`
-- `#ffffff1a`
-- `#ffffff33`
-- `#ffffffcc`
+### Lists
+
+- Drop Background: `#dcdcdc`
 
 ## Light Editor Colors
 
