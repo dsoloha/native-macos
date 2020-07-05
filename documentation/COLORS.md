@@ -10,17 +10,21 @@ All colors use the standard #RRGGBBAA format, with lowercase letters for better 
 
 ### Tab Bar
 
-- Active: `#cdcdcd`
-- Inactive: `#bebebe`
+- Active Background: `#cdcdcd`
+- Inactive Background: `#bebebe`
 - Border: `#afafaf`
 
 ### Side Bar
 
-- Background: `#f6f6f6`
+- Background: `#f5f5f5`
 
 ### Status Bar
 
-- Background: `#f6f6f6`
+- Background: `#ebebeb`
+
+### Activity Bar
+
+- Background: `#e6e6e6`
 
 ### Breadcrumbs
 
@@ -29,6 +33,9 @@ All colors use the standard #RRGGBBAA format, with lowercase letters for better 
 ### Editor
 
 - Background: `#292a2f`
+- Selection: `#505a6e`
+- Drop Background: `#0064d740`
+- Line Highlight Background: `#f5f5f5`
 
 ### Text
 
@@ -36,6 +43,8 @@ All colors use the standard #RRGGBBAA format, with lowercase letters for better 
 - Inactive: `#2d2d2d`
 - Transparent: `#000000bf`
 - Selected: `#b9d7fa`
+- Active Label: `#464646`
+- Inactive Label: `#646464`
 
 ### Widgets
 
@@ -52,53 +61,29 @@ All colors use the standard #RRGGBBAA format, with lowercase letters for better 
 
 - Background: `#cdcdcd`
 
+### Inputs
+
+- Background: `#f5f5f5`
+
 ### Git
 
-- Modified: `#4082d4`
+- Modified: `#007aff`
+- Added: `#28cd41`
+- Deleted: `#ff3b30`
 
-- `#000000`
-- `#000000bf`
+### Lists
 
-- `#3c3c3c`
-- `#32d74b`
-- `#5f5f5f`
-- `#5f6973`
-- `#6e6e6e`
-- `#32d74b`
-- `#0064d740`
-- `#4082d4`
-- `#4082d4`
-- `#505a6e`
-- `#505a6ecc`
-- `#828c96`
-- `#1982fa`
-- `#1982fa40`
-- `#2864c8cc`
-- `#28282d`
-- `#37373ccc`
-- `#232323`
-- `#464646`
-- `#464650`
-- `#646464`
-- `#aaaa96`
-- `#afafaf`
-- `#b4b4b440`
-- `#bebebe`
-- `#c8c8c8`
-- `#cdcdcd`
-- `#cde1f5`
-- `#d7d8d7`
-- `#dcdcdc`
-- `#e6e6e6`
-- `#ebebeb`
-- `#f5f5f5`
-- `#fafafa`
+- Drop Background: `#dcdcdc`
+- Focus Background: `#2864c8cc`
+- Find Range Background: `#b4b4b4`
+
+### Notifications
+
+- Background: `#cdcdcd`
+
+### To Be Removed
+
 - `#ff0000`
-- `#ff453a`
-- `#ff78b4`
-- `#ff453a`
-- `#ffffff`
-- `#f5f5ff`
 
 ## Dark Theme Colors
 
@@ -149,7 +134,7 @@ All colors use the standard #RRGGBBAA format, with lowercase letters for better 
 - Warnings: `#ffd60a`
 - Selected: `#646e82`
   - Inactive: `#d2d2d2`
-- Links: `#32d74b`
+- Links: `#007baf`
 - Line Numbers: `#737378`
 
 ### Widgets
@@ -186,7 +171,7 @@ All colors use the standard #RRGGBBAA format, with lowercase letters for better 
 ### Git
 
 - Added: `#32d74b`
-- Modified: `#4082d4`
+- Modified: `#0a84ff`
 - Deleted: `#ff453a`
 
 ### Lists
@@ -201,7 +186,6 @@ All colors use the standard #RRGGBBAA format, with lowercase letters for better 
 - `#734b32`
 - `#737d8c`
 - `#780faf`
-- `#232323`
 - `#418787`
 - `#460082`
 - `#820082`
@@ -209,6 +193,7 @@ All colors use the standard #RRGGBBAA format, with lowercase letters for better 
 - `#c800a5`
 - `#c83232`
 - `#c89632`
+- `#cde1f5`
 
 ## Dark Editor Colors
 
@@ -231,3 +216,4 @@ All colors use the standard #RRGGBBAA format, with lowercase letters for better 
 - `#f082aa`
 - `#ff8773`
 - `#ffffff"`
+- `#37373ccc`
