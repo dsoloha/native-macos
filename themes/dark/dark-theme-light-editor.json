@@ -529,7 +529,7 @@
 		"breadcrumb.background": "#ffffff",
 		"breadcrumb.focusForeground": "#000000",
 		"breadcrumb.foreground": "#000000",
-		"breadcrumbPicker.background": "#ffffff",
+		"breadcrumbPicker.background": "#ffffff"
 
 		// Snippets
 
@@ -731,24 +731,28 @@
 			"settings": {}
 		},
 		{
+			"name": "Info Token",
 			"scope": "token.info-token",
 			"settings": {
 				"foreground": "#3264c8"
 			}
 		},
 		{
+			"name": "Warning Token",
 			"scope": "token.warn-token",
 			"settings": {
 				"foreground": "#c89632"
 			}
 		},
 		{
+			"name": "Error Token",
 			"scope": "token.error-token",
 			"settings": {
 				"foreground": "#c83232"
 			}
 		},
 		{
+			"name": "Debug Token",
 			"scope": "token.debug-token",
 			"settings": {
 				"foreground": "#820082"
