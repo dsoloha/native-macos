@@ -607,7 +607,10 @@
 		},
 		{
 			"name": "Preprocessor Statements",
-			"scope": ["meta.preprocessor", "keyword.control.import"],
+			"scope": [
+				"meta.preprocessor",
+				"keyword.control.import"
+			],
 			"settings": {
 				"foreground": "#7D4726"
 			}
@@ -635,14 +638,20 @@
 		},
 		{
 			"name": "User-defined constant",
-			"scope": ["constant.character", "constant.other"],
+			"scope": [
+				"constant.character",
+				"constant.other"
+			],
 			"settings": {
 				"foreground": "#285a5f"
 			}
 		},
 		{
 			"name": "Variable",
-			"scope": ["variable.language", "variable.other"],
+			"scope": [
+				"variable.language",
+				"variable.other"
+			],
 			"settings": {
 				"foreground": "#c800a5"
 			}
@@ -713,7 +722,10 @@
 		},
 		{
 			"name": "Library class/type",
-			"scope": ["support.type", "support.class"],
+			"scope": [
+				"support.type",
+				"support.class"
+			],
 			"settings": {
 				"foreground": "#780faf"
 			}

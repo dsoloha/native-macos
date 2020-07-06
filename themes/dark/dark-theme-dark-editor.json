@@ -529,7 +529,7 @@
 		"breadcrumb.background": "#272827",
 		"breadcrumb.focusForeground": "#ffffff",
 		"breadcrumb.foreground": "#dedede",
-		"breadcrumbPicker.background": "#373737",
+		"breadcrumbPicker.background": "#373737"
 
 		// Snippets
 
@@ -604,7 +604,8 @@
 			"settings": {
 				"foreground": "#828c96"
 			}
-		}, {
+		},
+		{
 			"name": "Preprocessor Statements",
 			"scope": [
 				"meta.preprocessor",
@@ -613,13 +614,15 @@
 			"settings": {
 				"foreground": "#f5a55f"
 			}
-		}, {
+		},
+		{
 			"name": "String",
 			"scope": "string",
 			"settings": {
 				"foreground": "#ff8773"
 			}
-		}, {
+		},
+		{
 			"name": "Template string expressions",
 			"scope": [
 				"meta.template.expression",
@@ -628,7 +631,8 @@
 			"settings": {
 				"foreground": "#ffffff"
 			}
-		}, {
+		},
+		{
 			"name": "Template string interpolation",
 			"scope": [
 				"punctuation.definition.template-expression.begin",
@@ -638,51 +642,52 @@
 			"settings": {
 				"foreground": "#9664c8"
 			}
-		}, {
+		},
+		{
 			"name": "Number",
 			"scope": "constant.numeric",
 			"settings": {
 				"foreground": "#d7cd7d"
 			}
-		}, {
+		},
+		{
 			"name": "Built-in constant",
 			"scope": "constant.language",
 			"settings": {
 				"foreground": "#f082aa",
 				"fontStyle": "bold"
 			}
-		}, {
+		},
+		{
 			"name": "User-defined constant",
-			"scope": [
-				"constant.character"
-			],
+			"scope": "constant.character",
 			"settings": {
 				"foreground": "#64afc8"
 			}
-		}, {
+		},
+		{
 			"name": "Variable",
-			"scope": [
-				"variable"
-			],
+			"scope": "variable",
 			"settings": {
 				"foreground": "#64b4a0"
 			}
-		}, {
+		},
+		{
 			"name": "Variable property",
 			"scope": "variable.other.property",
 			"settings": {
 				"foreground": "#a0f0dc"
 			}
-		}, {
+		},
+		{
 			"name": "Keyword",
-			"scope": [
-				"keyword"
-			],
+			"scope": "keyword",
 			"settings": {
 				"foreground": "#f082aa",
 				"fontStyle": "bold"
 			}
-		}, {
+		},
+		{
 			"name": "Operator",
 			"scope": [
 				"keyword.operator",
@@ -692,84 +697,95 @@
 			"settings": {
 				"foreground": "#9664c8"
 			}
-		}, {
+		},
+		{
 			"name": "Storage",
 			"scope": "storage",
 			"settings": {
 				"foreground": "#f082aa",
 				"fontStyle": "bold"
 			}
-		}, {
+		},
+		{
 			"name": "Types",
 			"scope": "support.type.property-name",
 			"settings": {
 				"foreground": "#87dcfa"
 			}
-		}, {
+		},
+		{
 			"name": "Class name",
-			"scope": [
-				"entity.name.type.class"
-			],
+			"scope": "entity.name.type.class",
 			"settings": {
 				"foreground": "#bef0e6"
 			}
-		}, {
+		},
+		{
 			"name": "Superclass",
 			"scope": "entity.other.inherited-class",
 			"settings": {
 				"foreground": "#87beb4",
 				"fontStyle": "bold"
 			}
-		}, {
+		},
+		{
 			"name": "Function name",
 			"scope": "entity.name.function",
 			"settings": {
 				"foreground": "#64afc8"
 			}
-		}, {
+		},
+		{
 			"name": "Invoked function",
 			"scope": "entity.name.function.method",
 			"settings": {
 				"foreground": "#64b4a0"
 			}
-		}, {
+		},
+		{
 			"name": "Function argument",
 			"scope": "variable.parameter",
 			"settings": {
 				"foreground": "#ffffff"
 			}
-		}, {
+		},
+		{
 			"name": "Reserved keywords",
 			"scope": "variable.language",
 			"settings": {
 				"foreground": "#f082aa",
 				"fontStyle": "bold"
 			}
-		}, {
+		},
+		{
 			"name": "Tag name",
 			"scope": "entity.name.tag",
 			"settings": {
 				"foreground": "#f082aa"
 			}
-		}, {
+		},
+		{
 			"name": "Tag attribute",
 			"scope": "entity.other.attribute-name",
 			"settings": {
 				"foreground": "#d7cd7d"
 			}
-		}, {
+		},
+		{
 			"name": "Library function",
 			"scope": "support.function",
 			"settings": {
 				"foreground": "#64b4a0"
 			}
-		}, {
+		},
+		{
 			"name": "Library constant",
 			"scope": "support.constant",
 			"settings": {
 				"foreground": "#a0f0dc"
 			}
-		}, {
+		},
+		{
 			"name": "Library class/type",
 			"scope": [
 				"support.type",
@@ -778,35 +794,41 @@
 			"settings": {
 				"foreground": "#d2befa"
 			}
-		}, {
+		},
+		{
 			"name": "Library variable",
 			"scope": "support.other.variable",
 			"settings": {
 				"foreground": "#aa82e6"
 			}
-		}, {
+		},
+		{
 			"name": "Invalid",
 			"scope": "invalid",
 			"settings": {}
-		}, {
+		},
+		{
 			"name": "Info Token",
 			"scope": "token.info-token",
 			"settings": {
 				"foreground": "#3264c8"
 			}
-		}, {
+		},
+		{
 			"name": "Warning Token",
 			"scope": "token.warn-token",
 			"settings": {
 				"foreground": "#c89632"
 			}
-		}, {
+		},
+		{
 			"name": "Error Token",
 			"scope": "token.error-token",
 			"settings": {
 				"foreground": "#c83232"
 			}
-		}, {
+		},
+		{
 			"name": "Debug Token",
 			"scope": "token.debug-token",
 			"settings": {
