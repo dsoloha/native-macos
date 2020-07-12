@@ -135,16 +135,16 @@
 		// Minimap
 
 		// "minimap.background": "#ff0000",
-		// "minimap.errorHighlight": "#ff0000",
+		"minimap.errorHighlight": "#e21515",
 		// "minimap.findMatchHighlight": "#ff0000",
 		// "minimap.selectionHighlight": "#ff0000",
 		// "minimap.warningHighlight": "#ff0000",
 		// "minimapGutter.addedBackground": "#ff0000",
 		// "minimapGutter.deletedBackground": "#ff0000",
 		// "minimapGutter.modifiedBackground": "#ff0000",
-		// "minimapSlider.activeBackground": "#ff0000",
-		// "minimapSlider.background": "#ff0000",
-		// "minimapSlider.hoverBackground": "#ff0000",
+		"minimapSlider.activeBackground": "#99999980",
+		"minimapSlider.background": "#b3b3b380",
+		"minimapSlider.hoverBackground": "#a6a6a680",
 
 		// Editor Groups and Tabs
 

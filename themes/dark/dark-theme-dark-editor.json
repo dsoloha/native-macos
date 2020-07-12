@@ -142,9 +142,9 @@
 		// "minimapGutter.addedBackground": "#ff0000",
 		// "minimapGutter.deletedBackground": "#ff0000",
 		// "minimapGutter.modifiedBackground": "#ff0000",
-		// "minimapSlider.activeBackground": "#ff0000",
-		// "minimapSlider.background": "#ff0000",
-		// "minimapSlider.hoverBackground": "#ff0000",
+		"minimapSlider.activeBackground": "#99999980",
+		"minimapSlider.background": "#b3b3b380",
+		"minimapSlider.hoverBackground": "#a6a6a680",
 
 		// Editor Groups and Tabs
 
