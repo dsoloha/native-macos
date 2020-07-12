@@ -13,6 +13,8 @@ All colors use the standard #RRGGBBAA format, with lowercase letters for better 
 - Active Background: `#cdcdcd`
 - Inactive Background: `#bebebe`
 - Border: `#afafaf`
+- Unfocused Active Background: `#bfbfbf`
+- Unfocused Inactive Background: `#b3b3b3`
 
 ### Side Bar
 
@@ -45,6 +47,8 @@ All colors use the standard #RRGGBBAA format, with lowercase letters for better 
 - Selected: `#b9d7fa`
 - Active Label: `#464646`
 - Inactive Label: `#646464`
+- Unfocused Active: `#1a1a1a`
+- Unfocused Inactive: `#0d0d0d`
 
 ### Widgets
 
@@ -52,6 +56,8 @@ All colors use the standard #RRGGBBAA format, with lowercase letters for better 
 - Border: `#afafaf`
 
 ### Icons
+
+Foreground: `#595959`
 
 ### Terminal
 
