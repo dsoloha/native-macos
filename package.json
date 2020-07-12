@@ -2,7 +2,7 @@
 	"name": "native-macos",
 	"displayName": "Native macOS",
 	"description": "A theme designed to mimic macOS's native apps, such as Finder and Xcode.",
-	"version": "0.4.0",
+	"version": "0.5.0",
 	"publisher": "dsoloha",
 	"engines": {
 		"vscode": "^1.45.0"
