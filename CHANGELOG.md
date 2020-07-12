@@ -2,6 +2,22 @@
 
 All notable changes to the "native-macos" extension will be documented in this file, and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.3.4] - 2020-07-05
+
+### Changed
+
+- Updated documentation for a more consistent developer experience
+
+## [0.3.3] - 2020-06-28
+
+### Added
+
+- New subsections to colors documentation
+
+### Changed
+
+- Updated colors in the dark theme, dark editor variant to more closely resemble the colors found in Xcode
+
 ## [0.3.2] - 2020-06-20
 
 ### Changed
