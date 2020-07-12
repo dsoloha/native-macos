@@ -420,7 +420,7 @@
 		// "notificationCenter.border": "#ff0000",
 		"notificationCenterHeader.background": "#bebebe",
 		// "notificationCenterHeader.foreground": "#ff0000",
-		"notificationLink.foreground": "#28cd41",
+		"notificationLink.foreground": "#007aff",
 		"notifications.background": "#cdcdcd",
 		"notifications.border": "#afafaf",
 		// "notifications.foreground": "#ff0000",
