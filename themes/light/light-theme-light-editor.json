@@ -297,7 +297,7 @@
 
 		// Folding
 
-		"editor.foldBackground": "#323232bf",
+		"editor.foldBackground": "#f2f2f280",
 
 		// Diff Editor Colors
 
