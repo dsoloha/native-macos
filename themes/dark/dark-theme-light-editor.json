@@ -769,6 +769,84 @@
 			"settings": {
 				"foreground": "#820082"
 			}
+		},
+		{
+			"name": "Markup Heading",
+			"scope": "markup.heading",
+			"settings": {
+				"foreground": "#80bdff",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "Markup Top-Level Heading",
+			"scope": "markup.heading.1.html",
+			"settings": {
+				"foreground": "#3396ff",
+			}
+		},
+		{
+			"name": "Markup Heading Level 2",
+			"scope": "markup.heading.2.html",
+			"settings": {
+				"foreground": "#4da3ff",
+			}
+		},
+		{
+			"name": "Markup Heading Level 3",
+			"scope": "markup.heading.3.html",
+			"settings": {
+				"foreground": "#66b0ff"
+			}
+		},
+		{
+			"name": "Markup Bold",
+			"scope": "markup.bold",
+			"settings": {
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "Markup Italic",
+			"scope": "markup.italic",
+			"settings": {
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "Markup Underline",
+			"scope": "markup.underline",
+			"settings": {
+				"fontStyle": "underline"
+			}
+		},
+		{
+			"name": "Markup Quote",
+			"scope": "markup.quote",
+			"settings": {
+				"foreground": "#1abeff"
+			}
+		},
+		{
+			"name": "Markup Raw Inline",
+			"scope": "markup.inline.raw",
+			"settings": {
+				"foreground": "#64d2ff"
+			}
+		},
+		{
+			"name": "Markup Link",
+			"scope": "markup.underline.link",
+			"settings": {
+				"foreground": "#0a84ff"
+			}
+		},
+		{
+			"name": "Markup List",
+			"scope": "markup.list",
+			"settings": {
+				"foreground": "#e6e6e6"
+			}
 		}
 	]
 }
