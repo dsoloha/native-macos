@@ -2,6 +2,12 @@
 
 All notable changes to the "native-macos" extension will be documented in this file, and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.5.0] - 2020-07-12
+
+### Changed
+
+- Semantic Versioning fixes, published release to marketplace
+
 ## [0.4.0] - 2020-07-12
 
 ### Changed
