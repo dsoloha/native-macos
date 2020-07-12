@@ -1,59 +1,58 @@
 {
-    "name": "native-macos",
-    "displayName": "Native macOS",
-    "description": "A theme designed to mimic macOS's native apps, such as Finder and Xcode.",
-    "version": "0.4.0",
-    "publisher": "dsoloha",
-    "engines": {
-        "vscode": "^1.45.0"
-    },
-    "keywords": [
-        "macos",
-        "native",
-        "mojave",
-        "color-theme"
-    ],
-    "preview": true,
-    "homepage": "https://github.com/dsoloha/native-macos",
-    "icon": "icon.png",
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/dsoloha/native-macos.git"
-    },
-    "galleryBanner": {
-        "color": "#0F0F0F",
-        "theme": "dark"
-    },
-    "categories": [
-        "Themes"
-    ],
-    "contributes": {
-        "themes": [
-            {
-                "label": "Native macOS - Light Theme, Light Editor",
-                "uiTheme": "vs",
-                "path": "./themes/light/light-theme-light-editor.json"
-            },
-            {
-                "label": "Native macOS - Light Theme, Dark Editor",
-                "uiTheme": "vs",
-                "path": "./themes/light/light-theme-dark-editor.json"
-            },
-            {
-                "label": "Native macOS - Dark Theme, Light Editor",
-                "uiTheme": "vs-dark",
-                "path": "./themes/dark/dark-theme-light-editor.json"
-            },
-            {
-                "label": "Native macOS - Dark Theme, Dark Editor",
-                "uiTheme": "vs-dark",
-                "path": "./themes/dark/dark-theme-dark-editor.json"
-            }
-        ]
-    },
-    "__metadata": {
-        "id": "89bc8860-9fc7-11ea-bb37-0242ac130002",
-        "publisherId": "aeb59d00-9fc7-11ea-bb37-0242ac130002",
-        "publisherDisplayName": "dsoloha"
-    }
+	"name": "native-macos",
+	"displayName": "Native macOS",
+	"description": "A theme designed to mimic macOS's native apps, such as Finder and Xcode.",
+	"version": "0.3.4",
+	"publisher": "dsoloha",
+	"engines": {
+		"vscode": "^1.45.0"
+	},
+	"keywords": [
+		"native",
+		"macos",
+		"color-theme"
+	],
+	"preview": true,
+	"homepage": "https://github.com/dsoloha/native-macos",
+	"icon": "icon.png",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/dsoloha/native-macos.git"
+	},
+	"galleryBanner": {
+		"color": "#0F0F0F",
+		"theme": "dark"
+	},
+	"categories": [
+		"Themes"
+	],
+	"contributes": {
+		"themes": [
+			{
+				"label": "Native macOS - Light Theme, Light Editor",
+				"uiTheme": "vs",
+				"path": "./themes/light/light-theme-light-editor.json"
+			},
+			{
+				"label": "Native macOS - Light Theme, Dark Editor",
+				"uiTheme": "vs",
+				"path": "./themes/light/light-theme-dark-editor.json"
+			},
+			{
+				"label": "Native macOS - Dark Theme, Light Editor",
+				"uiTheme": "vs-dark",
+				"path": "./themes/dark/dark-theme-light-editor.json"
+			},
+			{
+				"label": "Native macOS - Dark Theme, Dark Editor",
+				"uiTheme": "vs-dark",
+				"path": "./themes/dark/dark-theme-dark-editor.json"
+			}
+		]
+	},
+	"__metadata": {
+		"id": "89bc8860-9fc7-11ea-bb37-0242ac130002",
+		"publisherId": "aeb59d00-9fc7-11ea-bb37-0242ac130002",
+		"publisherDisplayName": "dsoloha"
+	}
 }
