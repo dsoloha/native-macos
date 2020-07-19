@@ -2,6 +2,12 @@
 
 All notable changes to the "native-macos" extension will be documented in this file, and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.5.1] - 2020-07-19
+
+### Changed
+
+- Comments are now italicized
+
 ## [0.5.0] - 2020-07-12
 
 ### Changed
