@@ -788,7 +788,9 @@
 		},
 		{
 			"name": "Library class/type",
-			"scope": ["support.type", "support.class"],
+			"scope": [
+				"support.type", "support.class"
+			],
 			"settings": {
 				"foreground": "#d2befa"
 			}
