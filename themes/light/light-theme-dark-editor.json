@@ -602,7 +602,8 @@
 			"name": "Comment",
 			"scope": "comment",
 			"settings": {
-				"foreground": "#828c96"
+				"foreground": "#828c96",
+				"fontStyle": "italic"
 			}
 		},
 		{
@@ -775,21 +776,20 @@
 			"name": "Library function",
 			"scope": "support.function",
 			"settings": {
-				"foreground": "#64b4a0"
+				"foreground": "#aa82e6"
 			}
 		},
 		{
 			"name": "Library constant",
 			"scope": "support.constant",
 			"settings": {
-				"foreground": "#a0f0dc"
+				"foreground": "#aa82e6"
 			}
 		},
 		{
 			"name": "Library class/type",
 			"scope": [
-				"support.type",
-				"support.class"
+				"support.type", "support.class"
 			],
 			"settings": {
 				"foreground": "#d2befa"
@@ -799,7 +799,7 @@
 			"name": "Library variable",
 			"scope": "support.other.variable",
 			"settings": {
-				"foreground": "#aa82e6"
+				"foreground": "#d2befa"
 			}
 		},
 		{
@@ -847,14 +847,14 @@
 			"name": "Markup Top-Level Heading",
 			"scope": "markup.heading.1.html",
 			"settings": {
-				"foreground": "#3396ff",
+				"foreground": "#3396ff"
 			}
 		},
 		{
 			"name": "Markup Heading Level 2",
 			"scope": "markup.heading.2.html",
 			"settings": {
-				"foreground": "#4da3ff",
+				"foreground": "#4da3ff"
 			}
 		},
 		{
