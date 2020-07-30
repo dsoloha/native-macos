@@ -7,6 +7,7 @@ All notable changes to the "native-macos" extension will be documented in this f
 ### Changed
 
 - Comments are now italicized
+- Updated standard library methods and class colors
 
 ## [0.5.0] - 2020-07-12
 
