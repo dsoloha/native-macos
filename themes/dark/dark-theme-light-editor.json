@@ -602,8 +602,7 @@
 			"name": "Comment",
 			"scope": "comment",
 			"settings": {
-				"foreground": "#008E00",
-				"fontStyle": "italic"
+				"foreground": "#008E00"
 			}
 		},
 		{
