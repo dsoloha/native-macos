@@ -47,7 +47,7 @@ The Visual Studio Code editor is made up of a number of distinct areas, each wit
 
 ## Dropdown Control
 
-**Note:** Does not currently work on macOS.
+**Note:** Currently not in use on macOS.
 
 - `dropdown.background`
 - `dropdown.border`

@@ -30,7 +30,7 @@ There are a few optional tweaks you can do to really nail down the look of nativ
 "editor.fontWeight": "normal"
 ```
 
-You can also hide the Activity bar and replace it with an extension like [Activitus Bar](https://marketplace.visualstudio.com/items?itemName=Gruntfuggly.activitusbar) to further the look, and use an extension like [Vibrancy](https://marketplace.visualstudio.com/items?itemName=eyhn.vscode-vibrancy) to complete it.
+You can also hide the Activity bar and replace it with an extension like [Activitus Bar](https://marketplace.visualstudio.com/items?itemName=Gruntfuggly.activitusbar) to further the look, and use an extension like [Vibrancy](https://marketplace.visualstudio.com/items?itemName=eyhn.vscode-vibrancy) to enhance it.
 
 ```json
 "workbench.activityBar.visible": false,
@@ -39,7 +39,7 @@ You can also hide the Activity bar and replace it with an extension like [Activi
 "vscode_vibrancy.opacity": 0
 ```
 
-If you'd like, you can also disable to minimap, though I personally prefer to keep mine on for ease of use.
+If you'd like, you can also disable the minimap, though I personally prefer to keep mine on for ease of use.
 
 ```json
 "editor.minimap.enabled": false
@@ -49,18 +49,16 @@ To complete the look, you can also replace the default icon of Visual Studio Cod
 
 ## To replace the application icon on macOS
 
-The easiest option is to use an application like [LiteIcon](https://freemacsoft.net/liteicon/) to replace the default icon. If you'd rather do it yourself, however, read on.
+Navigate to your applications folder and find Visual Studio Code. Right-click on it, then click "Get Info".
 
-Navigate to your applications folder and find Visual Studio Code. Right-click on it, then click "Show Package Contents". From here, navigate to **Contents**, then to **Resources**, then delete **Code.icns**. You will replace this icon with the custom icon included.
-
-Navigate to the Visual Studio Code extensions folder (`Users/your-name/.vscode/extensions`)<sup>[1](#hidden-folders)</sup>. Find the Native macOS Theme Folder (`dsoloha.native-macos-0.0.1`), then right-click `icon.icns` and click "Duplicate". Rename the duplicate to "Icon.icns" and drag it into the Visual Studio Code Resources folder from earlier.
+Navigate to the Visual Studio Code extensions folder (`Users/your-name/.vscode/extensions`)<sup>[1](#hidden-folders)</sup>. Find the Native macOS Theme Folder (`dsoloha.native-macos-0.0.1`), then drag the `icon.icns` file onto the Info pane, onto the small icon at the top (directly under the title bar).
 
 Restart Visual Studio Code. Remove it from your dock and re-add it, if necessary.
+
+<sup id="hidden-folders">1</sup> If the `.vscode` folder isn't showing, press `Shift` + `⌘` + `.` to show your hidden folders.
 
 ## To replace the program icon on Windows
 
 Open the directory in which you installed Visual Studio Code (`C:\users\your-name\AppData\Local\Programs\Microsoft VS Code` by default). Right-click the `VSCode.exe` executable, then click **Properties**, then press the **Change Icon** button. From here, navigate to the Visual Studio Code extensions directory (`%USERPROFILE%\.vscode\extensions` by default). Double-click on `icon.ico`.
 
 Restart Visual Studio Code.
-
-<sup id="hidden-folders">1</sup> If the `.vscode` folder isn't showing, press `Shift` + `⌘` + `.` to show your hidden folders.

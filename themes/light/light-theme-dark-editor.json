@@ -1,5 +1,5 @@
 {
-	"name": "MacOS Modern - Xcode Default",
+	"name": "Native macOS - Light Theme, Dark Editor",
 	"$schema": "vscode://schemas/color-theme",
 	"type": "light",
 	"colors": {
