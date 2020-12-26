@@ -184,7 +184,7 @@
 		// Editor Colors
 
 		"editor.background": "#292a2f",
-		"editor.findMatchBackground": "#fffb00",
+		"editor.findMatchBackground": "#0a84ff99",
 		// "editor.findMatchBorder": "#ff0000",
 		"editor.findMatchHighlightBackground": "#545557",
 		// "editor.findMatchHighlightBorder": "#ff0000",
@@ -194,7 +194,7 @@
 		"editor.hoverHighlightBackground": "#add6ff26",
 		"editor.lineHighlightBackground": "#2e3239",
 		"editor.lineHighlightBorder": "#2e3239",
-		"editor.rangeHighlightBackground": "#fdff0033",
+		"editor.rangeHighlightBackground": "#646e82",
 		// "editor.rangeHighlightBorder": "#ff0000",
 		// "editor.symbolHighlightBackground": "#ff0000",
 		// "editor.symbolHighlightBorder": "#ff0000",

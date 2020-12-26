@@ -2,6 +2,19 @@
 
 All notable changes to the "native-macos" extension will be documented in this file, and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.5.2] - 2020-12-24
+
+### Changed
+
+- Updated README
+- Fixed LTDE name
+- Minor documentation updates
+- New icon for Big Sur
+
+### Added
+
+- Credits page
+
 ## [0.5.1] - 2020-07-19
 
 ### Changed
