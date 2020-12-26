@@ -9,6 +9,7 @@ All notable changes to the "native-macos" extension will be documented in this f
 - Updated README
 - Fixed LTDE name
 - Minor documentation updates
+- New icon for Big Sur
 
 ### Added
 
