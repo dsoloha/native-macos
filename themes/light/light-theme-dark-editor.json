@@ -310,21 +310,21 @@
 
 		// Editor Widget Colors
 
-		"debugExceptionWidget.background": "#cdcdcd",
-		"debugExceptionWidget.border": "#afafaf",
-		"editorHoverWidget.background": "#cdcdcd",
-		"editorHoverWidget.border": "#afafaf",
-		"editorHoverWidget.foreground": "#000000",
-		"editorHoverWidget.statusBarBackground": "#cdcdcd",
-		"editorSuggestWidget.background": "#cdcdcd",
-		"editorSuggestWidget.border": "#afafaf",
-		"editorSuggestWidget.foreground": "#000000",
-		"editorSuggestWidget.highlightForeground": "#000000",
-		"editorSuggestWidget.selectedBackground": "#3281f3",
-		"editorWidget.background": "#cdcdcd",
-		"editorWidget.border": "#afafaf",
-		"editorWidget.foreground": "#000000",
-		"editorWidget.resizeBorder": "#afafaf",
+		"debugExceptionWidget.background": "#3c3d3d",
+		"debugExceptionWidget.border": "#595959",
+		"editorHoverWidget.background": "#3c3d3d",
+		"editorHoverWidget.border": "#595959",
+		"editorHoverWidget.foreground": "#ffffff",
+		"editorHoverWidget.statusBarBackground": "#3c3d3d",
+		"editorSuggestWidget.background": "#3c3d3d",
+		"editorSuggestWidget.border": "#595959",
+		"editorSuggestWidget.foreground": "#ffffff",
+		"editorSuggestWidget.highlightForeground": "#ffffff",
+		"editorSuggestWidget.selectedBackground": "#0a84ff",
+		"editorWidget.background": "#292929",
+		"editorWidget.border": "#00000000",
+		"editorWidget.foreground": "#a9a9a9",
+		"editorWidget.resizeBorder": "#595959",
 
 		// Peek View Colors
 
